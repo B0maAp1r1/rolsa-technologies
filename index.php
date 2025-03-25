@@ -19,8 +19,8 @@
             <a href="./products.php"><li>Products</li></a>
             <a href="./services.php"><li>Services</li></a>
             <a href="./rolsa.php"><li>Rolsa</li></a>
-            <a href="./account.php"><i class="fa-solid fa-user" style="position: relative; width: 50px; height: 50px; left: 250px;"></i></a>
-            <a href="./shopping-cart.php"><i class="fa-solid fa-cart-shopping" style="position: relative; width: 50px; height: 50px; left: 225px; top: 1%;"></i></a>
+            <a href="./account.php"><i class="fa-solid fa-user" style="position: relative; left: 250px;"></i></a>
+            <a href="./shopping-cart.php"><i class="fa-solid fa-cart-shopping" style="position: relative; left: 225px; top: 1%;"></i></a>
           </nav>
     </div>
 

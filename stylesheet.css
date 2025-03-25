@@ -171,3 +171,29 @@ footer {
     background-color: #75fb87;
 }
 
+#prodSect2 {
+    height: 75vh;
+    width: 80vw;
+    justify-self: center;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+}
+
+.prodSect2_child1 {
+    width: 35vw;
+    justify-content: center;
+    position: relative;
+    height: 300px;
+}
+
+.prodSect2_child2 {
+    width: 35vw;
+    justify-self: center;
+}
+
+.prodSect2_child3 {
+    width: 35vw;
+    position: relative;
+    justify-self: center;
+}

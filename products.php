@@ -8,18 +8,18 @@
     <link rel="stylesheet" href="stylesheet.css">
     <title>Document</title>
 </head>
-<body>
+<body style="background: #d9d9d9;">
     <div style="height: 30vh; width: 80vw; background-color: black; justify-self: center;">
         <!-- navbar section -->
-        <div class="nav-bar" style="background-color: black; height: 75px; position: absolute; display: flex; top: 25px; border-radius: 50px; left: 12.5%; width: 75vw;">
+        <div class="nav-bar" style="background-color: black; border: 2px solid white; height: 75px; position: absolute; display: flex; top: 25px; border-radius: 50px; left: 12.5%; width: 75vw;">
             <a href="./index.php"><img width="100px" height="70px" style="position: relative; left: 100px; top: 2px;" src="./logos/Logo.png" alt="logo"></a>
             <nav style="display: flex; gap: 20px; position: relative; left: 35%; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; padding-top: 15px; font-size: 25px;">
                 <a href="./index.php"><li>Home</li></a>
                 <a href="./products.php"><li>Products</li></a>
                 <a href="./services.php"><li>Services</li></a>
                 <a href="./rolsa.php"><li>Rolsa</li></a>
-                <a href="./account.php"><i class="fa-solid fa-user" style="position: relative; width: 50px; height: 50px; left: 250px;"></i></a>
-                <a href="./shopping-cart.php"><i class="fa-solid fa-cart-shopping" style="position: relative; width: 50px; height: 50px; left: 225px; top: 1%;"></i></a>
+                <a href="./account.php"><i class="fa-solid fa-user" style="position: relative; left: 250px;"></i></a>
+                <a href="./shopping-cart.php"><i class="fa-solid fa-cart-shopping" style="position: relative; left: 250px; top: 1%;"></i></a>
             </nav>
         </div>
         <div style="position: relative; left: 5%; top: 250px;">
@@ -60,8 +60,35 @@
     </div>
 
     <!-- 2nd section -->
-    <div class="">
-
+    <div id="prodSect2">
+        <div style="width: 80vw; justify-self: center; display: flex; background-color: white; justify-content: center;">
+            <div class="prodSect2_child1">
+                <img style="width: 75%; height: 550px; box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px; position: relative; left: 12.5%; top: 10%; justify-self: center;" src="./Images/eldo-rafael-iLrMw5v4afE-unsplash.jpg" alt="ev-charger">
+            </div>
+            <div class="prodSect2_child2">
+                <div style="background-color: #75fb87; width: 75%; border-radius: 30px; height: 300px; position: relative; top: 5%; justify-self: center;">
+                    <p style="width: 85%; position: relative; top: 10%; justify-self: center; font-size: 25px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                        Our latest innovation, the zappi multiphase, brings flexible charging options to suit diverse needs. With selectable power settings of 7kW and 22kW, this charger adapts seamlessly to single or three-phase electrical setups, delivering efficient, high-speed charging tailored to every user’s setup.
+                    </p>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div style="background-color: black; border-radius: 30px; color: white; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; opacity: 100%; height: 250px; width: 500px; justify-content: center; justify-self: center;">
+                    <p style="position: relative; top: 10%; left: 10%;">Connection Type</p>
+                    <button style="width: 150px; position: relative; border-radius: 10px; top: 10%; left: 15%;">Type 2 Tethered</button>
+                    <button style="width: 150px; position: relative; border-radius: 10px; top: 10%; left: 20%;">Untethered</button>
+                    <hr style="position: relative; width: 75%;  top: 10%; opacity: 100%; top: 10%; justify-self: center;" color="white">
+                    <p style="position: relative; top: 10%; left: 10%;">Colour</p>
+                    <button style="width: 100px; position: relative; border-radius: 10px; top: 10%; left: 15%;">Black</button>
+                    <button style="width: 100px; position: relative; border-radius: 10px; top: 10%; left: 20%;">White</button>
+                    <hr style="position: relative; width: 75%; top: 10%; opacity: 100%; justify-self: center;" color="white">
+                </div>
+            </div>
+        </div>
+        <div class="prodSect2_child3">
+            
+        </div>
     </div>
 
 
