@@ -1,0 +1,15 @@
+{
+    "notebook.output.fontFamily": "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif",
+    "notebook.markup.fontFamily": "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif",
+    "editor.inlayHints.fontFamily": "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif",
+    "editor.codeLensFontFamily": "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif",
+    "editor.letterSpacing": 0,
+    "terminal.integrated.letterSpacing": 0,
+    "editor.fontFamily": "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif",
+    "editor.inlineSuggest.fontFamily": "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif",
+    "debug.console.fontFamily": "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif",
+    "scm.inputFontFamily": "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif",
+    "terminal.integrated.fontFamily": "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif",
+    "chat.editor.fontFamily": "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif",
+    "markdown.preview.fontFamily": "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"
+}
