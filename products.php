@@ -60,8 +60,8 @@
 
     <!-- 2nd section -->
     <div id="prodSect2">
-        <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; ">EV CHARGERS</h1>
-        <hr style="border: 2px solid black; opacity: 100%; width: 15vw;">
+        <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; position: relative; left: 10%;">EV CHARGERS</h1>
+        <hr style="border: 2px solid black; opacity: 100%; width: 15vw; position: relative; left: 10%;">
         <div style="width: 80vw; justify-self: center; display: flex; background-color: white; justify-content: center;">
             <div class="prodSect2_child1">
                 <img style="width: 75%; height: 550px; box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px; position: relative; left: 12.5%; top: 10%; justify-self: center;" src="./Images/eldo-rafael-iLrMw5v4afE-unsplash.jpg" alt="ev-charger">
