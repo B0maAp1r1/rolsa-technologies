@@ -22,7 +22,7 @@
                 <a href="./shopping-cart.php"><i class="fa-solid fa-cart-shopping" style="position: relative; left: 250px; top: 1%;"></i></a>
             </nav>
         </div>
-        <div style="position: relative; left: 5%; top: 250px;">
+        <div style="width: 15vw; position: relative; left: 5%; top: 250px;">
             <h1 style=" color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Products</h1>
             <hr style="border: 2px solid white; opacity: 100%; width: 15vw;">
         </div>
@@ -44,8 +44,7 @@
                 <h1 style="font-size: 50px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
                     The fully integrated energy ecosystem for your home
                 </h1>
-                <br>
-                <br>
+                <br><br>
                 <p style="font-size: 20.5px; font-family: georgia;">
                 From solar panels and EV chargers to energy storage, our solutions work seamlessly together to optimise energy use, reduce costs, and increase efficiency. With myenergi, you can power your home sustainably and take full control of your energy consumption.
                 </p>
@@ -61,6 +60,8 @@
 
     <!-- 2nd section -->
     <div id="prodSect2">
+        <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; ">EV CHARGERS</h1>
+        <hr style="border: 2px solid black; opacity: 100%; width: 15vw;">
         <div style="width: 80vw; justify-self: center; display: flex; background-color: white; justify-content: center;">
             <div class="prodSect2_child1">
                 <img style="width: 75%; height: 550px; box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px; position: relative; left: 12.5%; top: 10%; justify-self: center;" src="./Images/eldo-rafael-iLrMw5v4afE-unsplash.jpg" alt="ev-charger">
@@ -71,9 +72,7 @@
                         Our latest innovation, the zappi multiphase, brings flexible charging options to suit diverse needs. With selectable power settings of 7kW and 22kW, this charger adapts seamlessly to single or three-phase electrical setups, delivering efficient, high-speed charging tailored to every user’s setup.
                     </p>
                 </div>
-                <br>
-                <br>
-                <br>
+                <br><br><br>
                 <div style="background-color: black; border-radius: 30px; color: white; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; opacity: 100%; height: 250px; width: 500px; justify-content: center; justify-self: center;">
                     <p style="position: relative; top: 10%; left: 10%;">Connection Type</p>
                     <button style="width: 150px; position: relative; border-radius: 10px; top: 10%; left: 15%;">Type 2 Tethered</button>
@@ -86,27 +85,134 @@
                 </div>
             </div>
         </div>
+        <br><br>
         <div class="prodSect2_child3">
-            
+
         </div>
     </div>
 
+    <!-- 3rd section -->
+    <div id="prodSect3">
+        <div style="width: 80vw; justify-self: center; display: flex; background-color: white; justify-content: center;">
+            <div class="prodSect3_child1">
+                <img style="width: 75%; height: 550px; box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px; position: relative; left: 12.5%; top: 10%; justify-self: center;" src="./Images/eldo-rafael-iLrMw5v4afE-unsplash.jpg" alt="ev-charger">
+            </div>
+            <div class="prodSect3_child2">
+                <div style="background-color: #75fb87; width: 75%; border-radius: 30px; height: 300px; position: relative; top: 5%; justify-self: center;">
+                    <p style="width: 85%; position: relative; top: 10%; justify-self: center; font-size: 25px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                        Our latest innovation, the zappi multiphase, brings flexible charging options to suit diverse needs. With selectable power settings of 7kW and 22kW, this charger adapts seamlessly to single or three-phase electrical setups, delivering efficient, high-speed charging tailored to every user’s setup.
+                    </p>
+                </div>
+                <br><br><br>
+                <div style="background-color: black; border-radius: 30px; color: white; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; opacity: 100%; height: 250px; width: 500px; justify-content: center; justify-self: center;">
+                    <p style="position: relative; top: 10%; left: 10%;">Connection Type</p>
+                    <button style="width: 150px; position: relative; border-radius: 10px; top: 10%; left: 15%;">Type 2 Tethered</button>
+                    <button style="width: 150px; position: relative; border-radius: 10px; top: 10%; left: 20%;">Untethered</button>
+                    <hr style="position: relative; width: 75%;  top: 10%; opacity: 100%; top: 10%; justify-self: center;" color="white">
+                    <p style="position: relative; top: 10%; left: 10%;">Colour</p>
+                    <button style="width: 100px; position: relative; border-radius: 10px; top: 10%; left: 15%;">Black</button>
+                    <button style="width: 100px; position: relative; border-radius: 10px; top: 10%; left: 20%;">White</button>
+                    <hr style="position: relative; width: 75%; top: 10%; opacity: 100%; justify-self: center;" color="white">
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="prodSect3_child3">
 
+        </div>
+    </div>
 
+    <!-- 4th section -->
+    <div id="prodSect4">
+        <div style="width: 80vw; justify-self: center; display: flex; background-color: white; justify-content: center;">
+            <div class="prodSect4_child1">
+                <img style="width: 75%; height: 550px; box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px; position: relative; left: 12.5%; top: 10%; justify-self: center;" src="./Images/eldo-rafael-iLrMw5v4afE-unsplash.jpg" alt="ev-charger">
+            </div>
+            <div class="prodSect4_child2">
+                <div style="background-color: #75fb87; width: 75%; border-radius: 30px; height: 300px; position: relative; top: 5%; justify-self: center;">
+                    <p style="width: 85%; position: relative; top: 10%; justify-self: center; font-size: 25px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                        Our latest innovation, the zappi multiphase, brings flexible charging options to suit diverse needs. With selectable power settings of 7kW and 22kW, this charger adapts seamlessly to single or three-phase electrical setups, delivering efficient, high-speed charging tailored to every user’s setup.
+                    </p>
+                </div>
+                <br><br><br>
+                <div style="background-color: black; border-radius: 30px; color: white; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; opacity: 100%; height: 250px; width: 500px; justify-content: center; justify-self: center;">
+                    <p style="position: relative; top: 10%; left: 10%;">Connection Type</p>
+                    <button style="width: 150px; position: relative; border-radius: 10px; top: 10%; left: 15%;">Type 2 Tethered</button>
+                    <button style="width: 150px; position: relative; border-radius: 10px; top: 10%; left: 20%;">Untethered</button>
+                    <hr style="position: relative; width: 75%;  top: 10%; opacity: 100%; top: 10%; justify-self: center;" color="white">
+                    <p style="position: relative; top: 10%; left: 10%;">Colour</p>
+                    <button style="width: 100px; position: relative; border-radius: 10px; top: 10%; left: 15%;">Black</button>
+                    <button style="width: 100px; position: relative; border-radius: 10px; top: 10%; left: 20%;">White</button>
+                    <hr style="position: relative; width: 75%; top: 10%; opacity: 100%; justify-self: center;" color="white">
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="prodSect4_child3">
 
+        </div>
+    </div>
 
+    <!-- 5th section -->
+    <div id="prodSect5">
+        <div style="width: 80vw; justify-self: center; display: flex; background-color: white; justify-content: center;">
+            <div class="prodSect5_child1">
+                <img style="width: 75%; height: 550px; box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px; position: relative; left: 12.5%; top: 10%; justify-self: center;" src="./Images/eldo-rafael-iLrMw5v4afE-unsplash.jpg" alt="ev-charger">
+            </div>
+            <div class="prodSect5_child2">
+                <div style="background-color: #75fb87; width: 75%; border-radius: 30px; height: 300px; position: relative; top: 5%; justify-self: center;">
+                    <p style="width: 85%; position: relative; top: 10%; justify-self: center; font-size: 25px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                        Our latest innovation, the zappi multiphase, brings flexible charging options to suit diverse needs. With selectable power settings of 7kW and 22kW, this charger adapts seamlessly to single or three-phase electrical setups, delivering efficient, high-speed charging tailored to every user’s setup.
+                    </p>
+                </div>
+                <br><br><br>
+                <div style="background-color: black; border-radius: 30px; color: white; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; opacity: 100%; height: 250px; width: 500px; justify-content: center; justify-self: center;">
+                    <p style="position: relative; top: 10%; left: 10%;">Connection Type</p>
+                    <button style="width: 150px; position: relative; border-radius: 10px; top: 10%; left: 15%;">Type 2 Tethered</button>
+                    <button style="width: 150px; position: relative; border-radius: 10px; top: 10%; left: 20%;">Untethered</button>
+                    <hr style="position: relative; width: 75%;  top: 10%; opacity: 100%; top: 10%; justify-self: center;" color="white">
+                    <p style="position: relative; top: 10%; left: 10%;">Colour</p>
+                    <button style="width: 100px; position: relative; border-radius: 10px; top: 10%; left: 15%;">Black</button>
+                    <button style="width: 100px; position: relative; border-radius: 10px; top: 10%; left: 20%;">White</button>
+                    <hr style="position: relative; width: 75%; top: 10%; opacity: 100%; justify-self: center;" color="white">
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="prodSect5_child3">
 
+        </div>
+    </div>
+    <!-- 6th section -->
+    <div id="prodSect6">
+        <div style="width: 80vw; justify-self: center; display: flex; background-color: white; justify-content: center;">
+            <div class="prodSect6_child1">
+                <img style="width: 75%; height: 550px; box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px; position: relative; left: 12.5%; top: 10%; justify-self: center;" src="./Images/eldo-rafael-iLrMw5v4afE-unsplash.jpg" alt="ev-charger">
+            </div>
+            <div class="prodSect6_child2">
+                <div style="background-color: #75fb87; width: 75%; border-radius: 30px; height: 300px; position: relative; top: 5%; justify-self: center;">
+                    <p style="width: 85%; position: relative; top: 10%; justify-self: center; font-size: 25px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                        Our latest innovation, the zappi multiphase, brings flexible charging options to suit diverse needs. With selectable power settings of 7kW and 22kW, this charger adapts seamlessly to single or three-phase electrical setups, delivering efficient, high-speed charging tailored to every user’s setup.
+                    </p>
+                </div>
+                <br><br><br>
+                <div style="background-color: black; border-radius: 30px; color: white; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; opacity: 100%; height: 250px; width: 500px; justify-content: center; justify-self: center;">
+                    <p style="position: relative; top: 10%; left: 10%;">Connection Type</p>
+                    <button style="width: 150px; position: relative; border-radius: 10px; top: 10%; left: 15%;">Type 2 Tethered</button>
+                    <button style="width: 150px; position: relative; border-radius: 10px; top: 10%; left: 20%;">Untethered</button>
+                    <hr style="position: relative; width: 75%;  top: 10%; opacity: 100%; top: 10%; justify-self: center;" color="white">
+                    <p style="position: relative; top: 10%; left: 10%;">Colour</p>
+                    <button style="width: 100px; position: relative; border-radius: 10px; top: 10%; left: 15%;">Black</button>
+                    <button style="width: 100px; position: relative; border-radius: 10px; top: 10%; left: 20%;">White</button>
+                    <hr style="position: relative; width: 75%; top: 10%; opacity: 100%; justify-self: center;" color="white">
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="prodSect6_child3">
 
-
-
-
-
-
-
-
-
-
-
+        </div>
+    </div>
     <footer style="display: flex;">
         <div class="footer_child1" style="position: relative; top: 10%; height: 100%; height: 300px; width: 400px;">
             <a href="./index.php"><img width="200px" height="150px" style="position: relative; left: 20%;" src="./logos/Logo.png" alt="logo"></a>

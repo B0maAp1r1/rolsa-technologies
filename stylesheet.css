@@ -172,10 +172,10 @@ footer {
 }
 
 #prodSect2 {
-    height: 75vh;
+    min-height: 80vh;
+    border: 2px solid black;
     width: 80vw;
     justify-self: center;
-    display: flex;
     background-color: white;
     justify-content: center;
 }
@@ -194,6 +194,129 @@ footer {
 
 .prodSect2_child3 {
     width: 35vw;
+    height: 25vh;
+    border-radius: 30px;
+    background-color: #d9d9d9;
+    position: relative;
+    justify-self: center;
+}
+
+#prodSect3 {
+    min-height: 80vh;
+    border: 2px solid black;
+    width: 80vw;
+    justify-self: center;
+    background-color: white;
+    justify-content: center;
+}
+
+.prodSect3_child1 {
+    width: 35vw;
+    justify-content: center;
+    position: relative;
+    height: 300px;
+}
+
+.prodSect3_child2 {
+    width: 35vw;
+    justify-self: center;
+}
+
+.prodSect3_child3 {
+    width: 35vw;
+    height: 25vh;
+    border-radius: 30px;
+    background-color: #d9d9d9;
+    position: relative;
+    justify-self: center;
+}
+
+#prodSect4 {
+    min-height: 80vh;
+    border: 2px solid black;
+    width: 80vw;
+    justify-self: center;
+    background-color: white;
+    justify-content: center;
+}
+
+.prodSect4_child1 {
+    width: 35vw;
+    justify-content: center;
+    position: relative;
+    height: 300px;
+}
+
+.prodSect4_child2 {
+    width: 35vw;
+    justify-self: center;
+}
+
+.prodSect4_child3 {
+    width: 35vw;
+    height: 25vh;
+    border-radius: 30px;
+    background-color: #d9d9d9;
+    position: relative;
+    justify-self: center;
+}
+
+#prodSect5 {
+    min-height: 80vh;
+    border: 2px solid black;
+    width: 80vw;
+    justify-self: center;
+    background-color: white;
+    justify-content: center;
+}
+
+.prodSect5_child1 {
+    width: 35vw;
+    justify-content: center;
+    position: relative;
+    height: 300px;
+}
+
+.prodSect5_child2 {
+    width: 35vw;
+    justify-self: center;
+}
+
+.prodSect5_child3 {
+    width: 35vw;
+    height: 25vh;
+    border-radius: 30px;
+    background-color: #d9d9d9;
+    position: relative;
+    justify-self: center;
+}
+
+#prodSect6 {
+    min-height: 80vh;
+    border: 2px solid black;
+    width: 80vw;
+    justify-self: center;
+    background-color: white;
+    justify-content: center;
+}
+
+.prodSect6_child1 {
+    width: 35vw;
+    justify-content: center;
+    position: relative;
+    height: 300px;
+}
+
+.prodSect6_child2 {
+    width: 35vw;
+    justify-self: center;
+}
+
+.prodSect6_child3 {
+    width: 35vw;
+    height: 25vh;
+    border-radius: 30px;
+    background-color: #d9d9d9;
     position: relative;
     justify-self: center;
 }
