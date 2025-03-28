@@ -48,8 +48,7 @@
                 <p style="font-size: 20.5px; font-family: georgia;">
                 From solar panels and EV chargers to energy storage, our solutions work seamlessly together to optimise energy use, reduce costs, and increase efficiency. With myenergi, you can power your home sustainably and take full control of your energy consumption.
                 </p>
-                <br>
-                <br>
+                <br><br>
                 <div style="display: flex; gap: 10px;">
                     <a href="./rolsa.php"><button style="background-color: black; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; height: 45px; width: 150px; border-radius: 50px; color: #75fb87;">Find Out More</button></a>
                     <a href="./services.php"><button style="background-color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; height: 45px; width: 175px; border-radius: 50px; color: black;">Book a Consultation</button></a>
@@ -60,16 +59,17 @@
 
     <!-- 2nd section -->
     <div id="prodSect2">
+        <br><br><br>
         <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; position: relative; left: 10%;">EV Chargers</h1>
         <hr style="border: 2px solid black; opacity: 100%; width: 15vw; position: relative; left: 10%;">
         <div style="width: 80vw; justify-self: center; display: flex; background-color: white; justify-content: center;">
             <div class="prodSect2_child1">
-                <img style="width: 75%; height: 550px; box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px; position: relative; left: 12.5%; top: 10%; justify-self: center;" src="./Images/eldo-rafael-iLrMw5v4afE-unsplash.jpg" alt="ev-charger">
+                <img style="width: 75%; height: 550px; border-radius: 30px; box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px; position: relative; left: 12.5%; top: 10%; justify-self: center;" src="./Images/ev_charging2.webp" alt="ev-charger">
             </div>
             <div class="prodSect2_child2">
                 <div style="background-color: #75fb87; width: 75%; border-radius: 30px; height: 300px; position: relative; top: 5%; justify-self: center;">
                     <p style="width: 85%; position: relative; top: 10%; justify-self: center; font-size: 25px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
-                        Our latest innovation, the zappi multiphase, brings flexible charging options to suit diverse needs. With selectable power settings of 7kW and 22kW, this charger adapts seamlessly to single or three-phase electrical setups, delivering efficient, high-speed charging tailored to every user’s setup.
+                        Get your electric vehicles charged and ready to go at any time, at your place of comfort, Home! Spare yourself the need to rush to a chargepoint, office or carpark. <br> Instead get our EV Chargers installed and ready to use at your home.
                     </p>
                 </div>
                 <br><br><br>
@@ -93,6 +93,7 @@
 
     <!-- 3rd section -->
     <div id="prodSect3">
+        <br><br><br>
         <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; position: relative; left: 10%;">Energy Monitor</h1>
         <hr style="border: 2px solid black; opacity: 100%; width: 15vw; position: relative; left: 10%;">
         <div style="width: 80vw; justify-self: center; display: flex; background-color: white; justify-content: center;">
@@ -100,32 +101,22 @@
                 <img style="width: 75%; height: 550px; border-radius: 30px; box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px; position: relative; left: 12.5%; top: 10%; justify-self: center;" src="./Images/green-energy-monitor.jpg" alt="ev-charger">
             </div>
             <div class="prodSect3_child2">
-                <div style="background-color: #75fb87; width: 75%; border-radius: 30px; height: 300px; position: relative; top: 5%; justify-self: center;">
+                <div style="background-color: #75fb87; width: 75%; border-radius: 30px; height: 400px; position: relative; top: 5%; justify-self: center;">
                     <p style="width: 85%; position: relative; top: 10%; justify-self: center; font-size: 25px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
-                        Our latest innovation, the zappi multiphase, brings flexible charging options to suit diverse needs. With selectable power settings of 7kW and 22kW, this charger adapts seamlessly to single or three-phase electrical setups, delivering efficient, high-speed charging tailored to every user’s setup.
+                        Get our Energy Monitors that connect to your electricity meter to show how much energy your home uses and provides you with detailed information about how you can make your home more energy efficient. Our energy monitors also display real time energy usage data and can also be installed in the circuit breaker panel to trace which devices in your home are drawing power.
                     </p>
                 </div>
                 <br><br><br>
-                <div style="background-color: black; border-radius: 30px; color: white; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; opacity: 100%; height: 250px; width: 500px; justify-content: center; justify-self: center;">
-                    <p style="position: relative; top: 10%; left: 10%;">Connection Type</p>
-                    <button style="width: 150px; position: relative; border-radius: 10px; top: 10%; left: 15%;">Type 2 Tethered</button>
-                    <button style="width: 150px; position: relative; border-radius: 10px; top: 10%; left: 20%;">Untethered</button>
-                    <hr style="position: relative; width: 75%;  top: 10%; opacity: 100%; top: 10%; justify-self: center;" color="white">
-                    <p style="position: relative; top: 10%; left: 10%;">Colour</p>
-                    <button style="width: 100px; position: relative; border-radius: 10px; top: 10%; left: 15%;">Black</button>
-                    <button style="width: 100px; position: relative; border-radius: 10px; top: 10%; left: 20%;">White</button>
-                    <hr style="position: relative; width: 75%; top: 10%; opacity: 100%; justify-self: center;" color="white">
+                <div class="prodSect3_child3">
+                    <p></p>
                 </div>
             </div>
-        </div>
-        <br><br>
-        <div class="prodSect3_child3">
-
         </div>
     </div>
 
     <!-- 4th section -->
     <div id="prodSect4">
+        <br><br><br>
         <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; position: relative; left: 10%;">Solar Power Diverter</h1>
         <hr style="border: 2px solid black; opacity: 100%; width: 15vw; position: relative; left: 10%;">
         <div style="width: 80vw; justify-self: center; display: flex; background-color: white; justify-content: center;">
@@ -159,6 +150,7 @@
 
     <!-- 5th section -->
     <div id="prodSect5">
+        <br><br><br>
         <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; position: relative; left: 10%;">Battery Storage System</h1>
         <hr style="border: 2px solid black; opacity: 100%; width: 20vw; position: relative; left: 10%;">       
         <div style="width: 80vw; justify-self: center; display: flex; background-color: white; justify-content: center;">
@@ -191,6 +183,7 @@
     </div>
     <!-- 6th section -->
     <div id="prodSect6">
+        <br><br><br>
         <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; position: relative; left: 10%;">Solar Panel</h1>
         <hr style="border: 2px solid black; opacity: 100%; width: 15vw; position: relative; left: 10%;">
         <div style="width: 80vw; justify-self: center; display: flex; background-color: white; justify-content: center;">
