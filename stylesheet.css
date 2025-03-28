@@ -174,7 +174,7 @@ footer {
 }
 
 #prodSect2 {
-    height: 95vh;
+    height: 100vh;
     border: 1px solid black;
     width: 80vw;
     justify-self: center;
@@ -203,7 +203,7 @@ footer {
 }
 
 #prodSect3 {
-    height: 80vh;
+    height: 95vh;
     border: 1px solid black;
     width: 80vw;
     justify-self: center;
@@ -232,7 +232,7 @@ footer {
 }
 
 #prodSect4 {
-    height: 95vh;
+    height: 100vh;
     border: 1px solid black;
     width: 80vw;
     justify-self: center;
@@ -261,7 +261,7 @@ footer {
 }
 
 #prodSect5 {
-    height: 95vh;
+    height: 110vh;
     border: 1px solid black;
     width: 80vw;
     justify-self: center;
@@ -290,7 +290,7 @@ footer {
 }
 
 #prodSect6 {
-    height: 95vh;
+    height: 105vh;
     border: 1px solid black;
     width: 80vw;
     justify-self: center;

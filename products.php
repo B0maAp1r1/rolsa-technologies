@@ -59,7 +59,7 @@
 
     <!-- 2nd section -->
     <div id="prodSect2">
-        <br><br><br>
+        <br><br>
         <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; position: relative; left: 10%;">EV Chargers</h1>
         <hr style="border: 2px solid black; opacity: 100%; width: 15vw; position: relative; left: 10%;">
         <div style="width: 80vw; justify-self: center; display: flex; background-color: white; justify-content: center;">
@@ -73,7 +73,7 @@
                     </p>
                 </div>
                 <br><br><br>
-                <div style="background-color: black; border-radius: 30px; color: white; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; opacity: 100%; height: 250px; width: 500px; justify-content: center; justify-self: center;">
+                <div style="background-color: black; border-radius: 30px; color: white; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; opacity: 100%; height: 375px; width: 500px; justify-content: center; justify-self: center;">
                     <p style="position: relative; top: 10%; left: 10%;">Connection Type</p>
                     <button style="width: 150px; position: relative; border-radius: 10px; top: 10%; left: 15%;">Type 2 Tethered</button>
                     <button style="width: 150px; position: relative; border-radius: 10px; top: 10%; left: 20%;">Untethered</button>
@@ -82,18 +82,33 @@
                     <button style="width: 100px; position: relative; border-radius: 10px; top: 10%; left: 15%;">Black</button>
                     <button style="width: 100px; position: relative; border-radius: 10px; top: 10%; left: 20%;">White</button>
                     <hr style="position: relative; width: 75%; top: 10%; opacity: 100%; justify-self: center;" color="white">
+                    <p style="position: relative; top: 10%; left: 10%;">Book an Installation</p>
+                    <button style="width: 100px; position: relative; border-radius: 10px; top: 10%; left: 15%;">Yes</button>
+                    <button style="width: 100px; position: relative; border-radius: 10px; top: 10%; left: 20%;">No</button>
+                    <hr style="position: relative; width: 75%; top: 10%; opacity: 100%; justify-self: center;" color="white">
                 </div>
             </div>
         </div>
         <br><br>
         <div class="prodSect2_child3">
-
+            <p style="width: 100px; position: relative; left: 5%; top: 20%;">From £439</p>
+            <p style="width: 150px; position: relative; left: 5%; top: 15%;">inc. VAT if applicable</p>
+            <div style="display: flex; gap: 20px; position: relative; top: 20%; justify-self: center;">
+                <div style="display: flex; width: 71px; background-color: white; color: black; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; border-radius: 50px;">
+                    <button>-</button>
+                    <button>1</button>
+                    <button>+</button>
+                </div>
+                <div>
+                    <button style="background-color: #75fb87; width: 150px; color: black; border-radius: 50px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Add to basket</button>
+                </div>
+            </div>
         </div>
     </div>
 
     <!-- 3rd section -->
     <div id="prodSect3">
-        <br><br><br>
+        <br><br>
         <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; position: relative; left: 10%;">Energy Monitor</h1>
         <hr style="border: 2px solid black; opacity: 100%; width: 15vw; position: relative; left: 10%;">
         <div style="width: 80vw; justify-self: center; display: flex; background-color: white; justify-content: center;">
@@ -106,19 +121,25 @@
                         Get our Energy Monitors that connect to your electricity meter to show how much energy your home uses and provides you with detailed information about how you can make your home more energy efficient. Our energy monitors also display real time energy usage data and can also be installed in the circuit breaker panel to trace which devices in your home are drawing power.
                     </p>
                 </div>
-                <br><br><br>
-                <div class="prodSect3_child3">
-                    <p></p>
+                <br><br>
+                <div style="background-color: black; border-radius: 30px; color: white; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; opacity: 100%; height: 250px; width: 500px; justify-content: center; justify-self: center;">
+                    <p style="position: relative; top: 10%; left: 10%;">Book an Installation</p>
+                    <button style="width: 100px; position: relative; border-radius: 10px; top: 10%; left: 15%;">Yes</button>
+                    <button style="width: 100px; position: relative; border-radius: 10px; top: 10%; left: 20%;">No</button>
+                    <hr style="position: relative; width: 75%; top: 10%; opacity: 100%; justify-self: center;" color="white">
                 </div>
             </div>
         </div>
+        <div class="prodSect3_child3">
+                    <p></p>
+                </div>
     </div>
 
     <!-- 4th section -->
     <div id="prodSect4">
         <br><br><br>
         <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; position: relative; left: 10%;">Solar Power Diverter</h1>
-        <hr style="border: 2px solid black; opacity: 100%; width: 15vw; position: relative; left: 10%;">
+        <hr style="border: 2px solid black; opacity: 100%; width: 17vw; position: relative; left: 10%;">
         <div style="width: 80vw; justify-self: center; display: flex; background-color: white; justify-content: center;">
             <div class="prodSect4_child1">
                 <img style="width: 75%; height: 550px; border-radius: 30px; box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px; position: relative; left: 12.5%; top: 10%; justify-self: center;" src="./Images/eldo-rafael-iLrMw5v4afE-unsplash.jpg" alt="ev-charger">
@@ -130,14 +151,18 @@
                     </p>
                 </div>
                 <br><br><br>
-                <div style="background-color: black; border-radius: 30px; color: white; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; opacity: 100%; height: 250px; width: 500px; justify-content: center; justify-self: center;">
-                    <p style="position: relative; top: 10%; left: 10%;">Connection Type</p>
-                    <button style="width: 150px; position: relative; border-radius: 10px; top: 10%; left: 15%;">Type 2 Tethered</button>
-                    <button style="width: 150px; position: relative; border-radius: 10px; top: 10%; left: 20%;">Untethered</button>
+                <div style="background-color: black; border-radius: 30px; color: white; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; opacity: 100%; height: 375px; width: 500px; justify-content: center; justify-self: center;">
+                    <p style="position: relative; top: 10%; left: 10%;">Power</p>
+                    <button style="width: 150px; position: relative; border-radius: 10px; top: 10%; left: 15%;">1 - Phase</button>
+                    <button style="width: 150px; position: relative; border-radius: 10px; top: 10%; left: 20%;">3 - Phase</button>
                     <hr style="position: relative; width: 75%;  top: 10%; opacity: 100%; top: 10%; justify-self: center;" color="white">
                     <p style="position: relative; top: 10%; left: 10%;">Colour</p>
                     <button style="width: 100px; position: relative; border-radius: 10px; top: 10%; left: 15%;">Black</button>
                     <button style="width: 100px; position: relative; border-radius: 10px; top: 10%; left: 20%;">White</button>
+                    <hr style="position: relative; width: 75%; top: 10%; opacity: 100%; justify-self: center;" color="white">
+                    <p style="position: relative; top: 10%; left: 10%;">Book an Installation</p>
+                    <button style="width: 100px; position: relative; border-radius: 10px; top: 10%; left: 15%;">Yes</button>
+                    <button style="width: 100px; position: relative; border-radius: 10px; top: 10%; left: 20%;">No</button>
                     <hr style="position: relative; width: 75%; top: 10%; opacity: 100%; justify-self: center;" color="white">
                 </div>
             </div>
@@ -150,7 +175,7 @@
 
     <!-- 5th section -->
     <div id="prodSect5">
-        <br><br><br>
+        <br>
         <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; position: relative; left: 10%;">Battery Storage System</h1>
         <hr style="border: 2px solid black; opacity: 100%; width: 20vw; position: relative; left: 10%;">       
         <div style="width: 80vw; justify-self: center; display: flex; background-color: white; justify-content: center;">
@@ -164,26 +189,37 @@
                     </p>
                 </div>
                 <br><br><br>
-                <div style="background-color: black; border-radius: 30px; color: white; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; opacity: 100%; height: 250px; width: 500px; justify-content: center; justify-self: center;">
-                    <p style="position: relative; top: 10%; left: 10%;">Connection Type</p>
-                    <button style="width: 150px; position: relative; border-radius: 10px; top: 10%; left: 15%;">Type 2 Tethered</button>
-                    <button style="width: 150px; position: relative; border-radius: 10px; top: 10%; left: 20%;">Untethered</button>
-                    <hr style="position: relative; width: 75%;  top: 10%; opacity: 100%; top: 10%; justify-self: center;" color="white">
-                    <p style="position: relative; top: 10%; left: 10%;">Colour</p>
-                    <button style="width: 100px; position: relative; border-radius: 10px; top: 10%; left: 15%;">Black</button>
-                    <button style="width: 100px; position: relative; border-radius: 10px; top: 10%; left: 20%;">White</button>
-                    <hr style="position: relative; width: 75%; top: 10%; opacity: 100%; justify-self: center;" color="white">
+                <div style="background-color: black; border-radius: 30px; color: white; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; opacity: 100%; height: 550px; width: 500px; justify-content: center; justify-self: center;">
+                    <p style="position: relative; top: 5%; left: 10%;">Do you have Solar ?</p>
+                    <button style="width: 150px; position: relative; border-radius: 10px; top: 5%; left: 15%;">Yes</button>
+                    <button style="width: 150px; position: relative; border-radius: 10px; top: 5%; left: 20%;">No</button>
+                    <hr style="position: relative; width: 75%;  top: 5%; opacity: 100%; top: 5%; justify-self: center;" color="white">
+                    <p style="position: relative; top: 5%; left: 10%;">Choose your Inverter</p>
+                    <button style="width: 100px; position: relative; border-radius: 10px; top: 5%; left: 15%;">Smaller PV arrays (3.68 kW)</button>
+                    <button style="width: 100px; position: relative; border-radius: 10px; top: 5%; left: 20%;">LargeR PV arrays (5 kW)</button>
+                    <hr style="position: relative; width: 75%; top: 5%; opacity: 100%; justify-self: center;" color="white">
+                    <p style="position: relative; top: 5%; left: 10%;">How much storage would you like ?</p>
+                    <button style="width: 100px; position: relative; border-radius: 10px; top: 5%; left: 15%;"> 5 kW</button>
+                    <button style="width: 100px; position: relative; border-radius: 10px; top: 5%; left: 20%;">10 kW</button>
+                    <br><br>
+                    <button style="width: 100px; position: relative; border-radius: 10px; top: 5%; left: 15%;">15 kW</button>
+                    <button style="width: 100px; position: relative; border-radius: 10px; top: 5%; left: 20%;">20 kW</button>
+                    <hr style="position: relative; width: 75%; top: 5%; opacity: 100%; justify-self: center;" color="white">
+                    <p style="position: relative; top: 5%; left: 10%;">Book an Installation</p>
+                    <button style="width: 100px; position: relative; border-radius: 10px; top: 5%; left: 15%;">Yes</button>
+                    <button style="width: 100px; position: relative; border-radius: 10px; top: 5%; left: 20%;">No</button>
+                    <hr style="position: relative; width: 75%; top: 5%; opacity: 100%; justify-self: center;" color="white">
                 </div>
             </div>
         </div>
-        <br><br>
+        <br>
         <div class="prodSect5_child3">
 
         </div>
     </div>
     <!-- 6th section -->
     <div id="prodSect6">
-        <br><br><br>
+        <br><br>
         <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; position: relative; left: 10%;">Solar Panel</h1>
         <hr style="border: 2px solid black; opacity: 100%; width: 15vw; position: relative; left: 10%;">
         <div style="width: 80vw; justify-self: center; display: flex; background-color: white; justify-content: center;">
@@ -197,19 +233,29 @@
                     </p>
                 </div>
                 <br><br><br>
-                <div style="background-color: black; border-radius: 30px; color: white; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; opacity: 100%; height: 250px; width: 500px; justify-content: center; justify-self: center;">
-                    <p style="position: relative; top: 10%; left: 10%;">Connection Type</p>
-                    <button style="width: 150px; position: relative; border-radius: 10px; top: 10%; left: 15%;">Type 2 Tethered</button>
-                    <button style="width: 150px; position: relative; border-radius: 10px; top: 10%; left: 20%;">Untethered</button>
-                    <hr style="position: relative; width: 75%;  top: 10%; opacity: 100%; top: 10%; justify-self: center;" color="white">
-                    <p style="position: relative; top: 10%; left: 10%;">Colour</p>
-                    <button style="width: 100px; position: relative; border-radius: 10px; top: 10%; left: 15%;">Black</button>
-                    <button style="width: 100px; position: relative; border-radius: 10px; top: 10%; left: 20%;">White</button>
+                <div style="background-color: black; border-radius: 30px; color: white; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; opacity: 100%; height: 475px; width: 500px; justify-content: center; justify-self: center;">
+                    <p style="position: relative; top: 5%; left: 10%;">How many panels do you want  ?</p>
+                    <button style="width: 100px; position: relative; border-radius: 10px; top: 5%; left: 15%;">8 Panels</button>
+                    <button style="width: 100px; position: relative; border-radius: 10px; top: 5%; left: 20%;">10 Panels</button>
+                    <br><br>
+                    <button style="width: 100px; position: relative; border-radius: 10px; top: 5%; left: 15%;">12 Panels</button>
+                    <button style="width: 100px; position: relative; border-radius: 10px; top: 5%; left: 20%;">14 Panels</button>
+                    <hr style="position: relative; width: 75%; top: 5%; opacity: 100%; justify-self: center;" color="white">
+                    <p style="position: relative; top: 5%; left: 10%;">How much storage would you like ?</p>
+                    <button style="width: 100px; position: relative; border-radius: 10px; top: 5%; left: 15%;"> 5 kW</button>
+                    <button style="width: 100px; position: relative; border-radius: 10px; top: 5%; left: 20%;">10 kW</button>
+                    <br><br>
+                    <button style="width: 100px; position: relative; border-radius: 10px; top: 5%; left: 15%;">15 kW</button>
+                    <button style="width: 100px; position: relative; border-radius: 10px; top: 5%; left: 20%;">20 kW</button>
+                    <hr style="position: relative; width: 75%; top: 5%; opacity: 100%; justify-self: center;" color="white">
+                    <p style="position: relative; top: 10%; left: 10%;">Book an Installation</p>
+                    <button style="width: 100px; position: relative; border-radius: 10px; top: 10%; left: 15%;">Yes</button>
+                    <button style="width: 100px; position: relative; border-radius: 10px; top: 10%; left: 20%;">No</button>
                     <hr style="position: relative; width: 75%; top: 10%; opacity: 100%; justify-self: center;" color="white">
                 </div>
             </div>
         </div>
-        <br><br>
+        <br>
         <div class="prodSect6_child3">
         </div>
     </div>
