@@ -195,7 +195,7 @@
         <hr style="border: 2px solid black; opacity: 100%; width: 15vw; position: relative; left: 10%;">
         <div style="width: 80vw; justify-self: center; display: flex; background-color: white; justify-content: center;">
             <div class="prodSect6_child1">
-                <img style="width: 75%; height: 550px; border-radius: 30px; box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px; position: relative; left: 12.5%; top: 10%; justify-self: center;" src="./Images/eldo-rafael-iLrMw5v4afE-unsplash.jpg" alt="ev-charger">
+                <img style="width: 75%; height: 550px; border-radius: 30px; box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px; position: relative; left: 12.5%; top: 10%; justify-self: center;" src="./Images/michael-fortsch-bIm9salXn-g-unsplash.jpg" alt="solar panel">
             </div>
             <div class="prodSect6_child2">
                 <div style="background-color: #75fb87; width: 75%; border-radius: 30px; height: 300px; position: relative; top: 5%; justify-self: center;">
