@@ -152,7 +152,7 @@ footer {
 /* products.php styling */
 #prodSect1 {
     width: 80vw;
-    height: 60vh;
+    height: 80vh;
     justify-self: center;
     display: flex;
     color: white;
@@ -172,12 +172,13 @@ footer {
 }
 
 #prodSect2 {
-    min-height: 80vh;
+    height: 80vh;
     border: 2px solid black;
     width: 80vw;
     justify-self: center;
     background-color: white;
     justify-content: center;
+    position: relative;
 }
 
 .prodSect2_child1 {
@@ -202,12 +203,13 @@ footer {
 }
 
 #prodSect3 {
-    min-height: 80vh;
+    height: 80vh;
     border: 2px solid black;
     width: 80vw;
     justify-self: center;
     background-color: white;
     justify-content: center;
+    position: relative;
 }
 
 .prodSect3_child1 {
@@ -232,12 +234,13 @@ footer {
 }
 
 #prodSect4 {
-    min-height: 80vh;
+    height: 80vh;
     border: 2px solid black;
     width: 80vw;
     justify-self: center;
     background-color: white;
     justify-content: center;
+    position: relative;
 }
 
 .prodSect4_child1 {
@@ -262,12 +265,13 @@ footer {
 }
 
 #prodSect5 {
-    min-height: 80vh;
+    height: 80vh;
     border: 2px solid black;
     width: 80vw;
     justify-self: center;
     background-color: white;
     justify-content: center;
+    position: relative;
 }
 
 .prodSect5_child1 {
@@ -292,12 +296,13 @@ footer {
 }
 
 #prodSect6 {
-    min-height: 80vh;
+    height: 100vh;
     border: 2px solid black;
     width: 80vw;
     justify-self: center;
     background-color: white;
     justify-content: center;
+    position: relative;
 }
 
 .prodSect6_child1 {

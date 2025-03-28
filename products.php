@@ -60,7 +60,7 @@
 
     <!-- 2nd section -->
     <div id="prodSect2">
-        <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; position: relative; left: 10%;">EV CHARGERS</h1>
+        <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; position: relative; left: 10%;">EV Chargers</h1>
         <hr style="border: 2px solid black; opacity: 100%; width: 15vw; position: relative; left: 10%;">
         <div style="width: 80vw; justify-self: center; display: flex; background-color: white; justify-content: center;">
             <div class="prodSect2_child1">
@@ -93,9 +93,11 @@
 
     <!-- 3rd section -->
     <div id="prodSect3">
+        <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; position: relative; left: 10%;">Energy Monitor</h1>
+        <hr style="border: 2px solid black; opacity: 100%; width: 15vw; position: relative; left: 10%;">
         <div style="width: 80vw; justify-self: center; display: flex; background-color: white; justify-content: center;">
             <div class="prodSect3_child1">
-                <img style="width: 75%; height: 550px; box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px; position: relative; left: 12.5%; top: 10%; justify-self: center;" src="./Images/eldo-rafael-iLrMw5v4afE-unsplash.jpg" alt="ev-charger">
+                <img style="width: 75%; height: 550px; border-radius: 30px; box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px; position: relative; left: 12.5%; top: 10%; justify-self: center;" src="./Images/green-energy-monitor.jpg" alt="ev-charger">
             </div>
             <div class="prodSect3_child2">
                 <div style="background-color: #75fb87; width: 75%; border-radius: 30px; height: 300px; position: relative; top: 5%; justify-self: center;">
@@ -124,9 +126,11 @@
 
     <!-- 4th section -->
     <div id="prodSect4">
+        <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; position: relative; left: 10%;">Solar Power Diverter</h1>
+        <hr style="border: 2px solid black; opacity: 100%; width: 15vw; position: relative; left: 10%;">
         <div style="width: 80vw; justify-self: center; display: flex; background-color: white; justify-content: center;">
             <div class="prodSect4_child1">
-                <img style="width: 75%; height: 550px; box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px; position: relative; left: 12.5%; top: 10%; justify-self: center;" src="./Images/eldo-rafael-iLrMw5v4afE-unsplash.jpg" alt="ev-charger">
+                <img style="width: 75%; height: 550px; border-radius: 30px; box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px; position: relative; left: 12.5%; top: 10%; justify-self: center;" src="./Images/eldo-rafael-iLrMw5v4afE-unsplash.jpg" alt="ev-charger">
             </div>
             <div class="prodSect4_child2">
                 <div style="background-color: #75fb87; width: 75%; border-radius: 30px; height: 300px; position: relative; top: 5%; justify-self: center;">
@@ -155,9 +159,11 @@
 
     <!-- 5th section -->
     <div id="prodSect5">
+        <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; position: relative; left: 10%;">Battery Storage System</h1>
+        <hr style="border: 2px solid black; opacity: 100%; width: 15vw; position: relative; left: 10%;">       
         <div style="width: 80vw; justify-self: center; display: flex; background-color: white; justify-content: center;">
             <div class="prodSect5_child1">
-                <img style="width: 75%; height: 550px; box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px; position: relative; left: 12.5%; top: 10%; justify-self: center;" src="./Images/eldo-rafael-iLrMw5v4afE-unsplash.jpg" alt="ev-charger">
+                <img style="width: 75%; height: 550px; border-radius: 30px; box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px; position: relative; left: 12.5%; top: 10%; justify-self: center;" src="./Images/zendure-power-station-DjknAhHi0OY-unsplash.jpg" alt="ev-charger">
             </div>
             <div class="prodSect5_child2">
                 <div style="background-color: #75fb87; width: 75%; border-radius: 30px; height: 300px; position: relative; top: 5%; justify-self: center;">
@@ -185,9 +191,11 @@
     </div>
     <!-- 6th section -->
     <div id="prodSect6">
+        <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; position: relative; left: 10%;">Solar Panel</h1>
+        <hr style="border: 2px solid black; opacity: 100%; width: 15vw; position: relative; left: 10%;">
         <div style="width: 80vw; justify-self: center; display: flex; background-color: white; justify-content: center;">
             <div class="prodSect6_child1">
-                <img style="width: 75%; height: 550px; box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px; position: relative; left: 12.5%; top: 10%; justify-self: center;" src="./Images/eldo-rafael-iLrMw5v4afE-unsplash.jpg" alt="ev-charger">
+                <img style="width: 75%; height: 550px; border-radius: 30px; box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px; position: relative; left: 12.5%; top: 10%; justify-self: center;" src="./Images/eldo-rafael-iLrMw5v4afE-unsplash.jpg" alt="ev-charger">
             </div>
             <div class="prodSect6_child2">
                 <div style="background-color: #75fb87; width: 75%; border-radius: 30px; height: 300px; position: relative; top: 5%; justify-self: center;">
@@ -210,9 +218,10 @@
         </div>
         <br><br>
         <div class="prodSect6_child3">
-
         </div>
     </div>
+
+
     <footer style="display: flex;">
         <div class="footer_child1" style="position: relative; top: 10%; height: 100%; height: 300px; width: 400px;">
             <a href="./index.php"><img width="200px" height="150px" style="position: relative; left: 20%;" src="./logos/Logo.png" alt="logo"></a>
