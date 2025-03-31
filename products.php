@@ -94,10 +94,10 @@
             <p style="width: 100px; position: relative; left: 5%; top: 20%;">From £439</p>
             <p style="width: 150px; position: relative; left: 5%; top: 15%;">inc. VAT if applicable</p>
             <div style="display: flex; gap: 20px; position: relative; top: 20%; justify-self: center;">
-                <div style="display: flex; width: 71px; background-color: white; color: black; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; border-radius: 50px;">
-                    <button>-</button>
-                    <button>1</button>
-                    <button>+</button>
+                <div style="display: flex; width: 71px; background-color: white; position: relative; justify-content: center; height: 25px; color: black; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; border-radius: 50px;">
+                    <button style="border: 0; height: 20px; position: relative; top: 1px; border-right: 1px solid black;">-</button>
+                    <button style="border: 0; height: 20px; position: relative; top: 1px;">1</button>
+                    <button style="border: 0; height: 20px; position: relative; top: 1px; border-left: 1px solid black;">+</button>
                 </div>
                 <div>
                     <button style="background-color: #75fb87; width: 150px; color: black; border-radius: 50px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Add to basket</button>
