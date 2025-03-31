@@ -7,21 +7,20 @@
     padding: 50px;
 }
 
-.container{
+.container {
     background-color: #000000;
     position: relative;
     top: 30%;
     border-radius: 30px;
-    max-width: 600px;
+    max-width: 90%; /* Changed to percentage for responsiveness */
     margin: auto;
-    padding: 50px;;
+    padding: 5%; /* Changed to percentage for responsiveness */
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.form-group{
+.form-group {
     margin-bottom: 30px;
 }
-
 
 /* navbar styling */
 .nav-bar a {
@@ -33,7 +32,6 @@
     color: #75fb87; /* Change color on hover */
     transform: scale(1.1); /* Slightly enlarge the icon/text */
 }
-
 
 /* index.php styling */
 li {
@@ -49,87 +47,84 @@ a {
     max-height: 75vh;
     display: flex;
     justify-self: center;
+    flex-direction: column; /* Added for responsiveness */
 }
 
 .sect1_child1 {
     max-height: 75vh;
-    width: 40vw;
+    width: 100%; /* Changed to 100% for responsiveness */
     background-color: #75fb87;
 }
 
 .sect1_child2 {
     max-height: 75vh;
-    width: 40vw;
+    width: 100%; /* Changed to 100% for responsiveness */
 }
 
 #sect2 {
     display: flex;
-    height: 75vh;
-    width: 80vw;
+    height: auto; /* Changed to auto for responsiveness */
+    width: 90%; /* Changed to percentage for responsiveness */
     background-color: white;
     justify-self: center;
 }
 
 .sect2_child1 {
     position: relative;
-    left: 10%;
+    left: 0; /* Changed to 0 for responsiveness */
     background-color: black;
     border-radius: 15px;
-    height: 750px;
-    width: 400px;
+    height: auto; /* Changed to auto for responsiveness */
+    width: 100%; /* Changed to 100% for responsiveness */
     color: #75fb87;
 }
 
 .sect2_child2 {
     position: relative;
-    left: 20%;
+    left: 0; /* Changed to 0 for responsiveness */
     background-color: #75fb87;
     border-radius: 15px;
-    height: 750px;
-    width: 400px;
+    height: auto; /* Changed to auto for responsiveness */
+    width: 100%; /* Changed to 100% for responsiveness */
     color: black;
 }
 
 .sect2_child3 {
     position: relative;
-    left: 30%;
+    left: 0; /* Changed to 0 for responsiveness */
     background-color: #d9d9d9;
     border-radius: 15px;
-    height: 750px;
-    width: 400px;
+    height: auto; /* Changed to auto for responsiveness */
+    width: 100%; /* Changed to 100% for responsiveness */
     color: black; 
 }
 
 #sect3 {
     background-color: white;
-    height: 50vh;
+    height: auto; /* Changed to auto for responsiveness */
     display: flex;
-    width: 80vw;
+    width: 90%; /* Changed to percentage for responsiveness */
     justify-self: center;
 }
 
 .sect3_child1 {
     position: relative;
     justify-self: center;
-    width: 35%;
-    height: 60%;
-    left: 20%;
-    top: 20%;
+    width: 100%; /* Changed to 100% for responsiveness */
+    height: auto; /* Changed to auto for responsiveness */
 }
 
 .sect3_child2 {
     position: relative;
     justify-self: center;
-    width: 30%;
-    height: 60%;
-    left: 20%;
-    top: 20%;
+    width: 100%; /* Changed to 100% for responsiveness */
+    height: auto; /* Changed to auto for responsiveness */
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 #sect4 {
-    width: 80vw;
-    height: 75vh;
+    width: 90%; /* Changed to percentage for responsiveness */
+    height: auto; /* Changed to auto for responsiveness */
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url(./Images/green-energy-house.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -139,22 +134,20 @@ a {
 }
 
 /* footer styling */
-
 footer {
-    width: 80vw;
+    width: 90%; /* Changed to percentage for responsiveness */
     background-color: black;
-    height: 50vh;
+    height: auto; /* Changed to auto for responsiveness */
     justify-self: center;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border: 1px solid white;
 }
 
-
 /* products.php styling */
 #prodSect1 {
-    width: 80vw;
-    height: 60vh;
+    width: 90%; /* Changed to percentage for responsiveness */
+    height: auto; /* Changed to auto for responsiveness */
     justify-self: center;
     display: flex;
     color: white;
@@ -162,40 +155,40 @@ footer {
 }
 
 .prodSect1_child1 {
-    height: 60vh;
-    width: 45vw;
+    height: auto; /* Changed to auto for responsiveness */
+    width: 100%; /* Changed to 100% for responsiveness */
 }
 
 .prodSect1_child2 {
     color: black;
-    height: 60vh;
-    width: 35vw;
+    height: auto; /* Changed to auto for responsiveness */
+    width: 100%; /* Changed to 100% for responsiveness */
     background-color: #75fb87;
 }
 
 #prodSect2 {
-    height: 100vh;
+    height: auto; /* Changed to auto for responsiveness */
     border: 1px solid black;
-    width: 80vw;
+    width: 90%; /* Changed to percentage for responsiveness */
     justify-self: center;
     background-color: white;
 }
 
 .prodSect2_child1 {
-    width: 35vw;
+    width: 100%; /* Changed to 100% for responsiveness */
     justify-content: center;
     position: relative;
-    height: 300px;
+    height: auto; /* Changed to auto for responsiveness */
 }
 
 .prodSect2_child2 {
-    width: 35vw;
+    width: 100%; /* Changed to 100% for responsiveness */
     justify-self: center;
 }
 
 .prodSect2_child3 {
-    width: 35vw;
-    height: 25vh;
+    width: 100%; /* Changed to 100% for responsiveness */
+    height: auto; /* Changed to auto for responsiveness */
     border-radius: 30px;
     background-color: #d9d9d9;
     position: relative;
@@ -203,28 +196,28 @@ footer {
 }
 
 #prodSect3 {
-    height: 95vh;
+    height: auto; /* Changed to auto for responsiveness */
     border: 1px solid black;
-    width: 80vw;
+    width: 90%; /* Changed to percentage for responsiveness */
     justify-self: center;
     background-color: white;
 }
 
 .prodSect3_child1 {
-    width: 35vw;
+    width: 100%; /* Changed to 100% for responsiveness */
     justify-content: center;
     position: relative;
-    height: 300px;
+    height: auto; /* Changed to auto for responsiveness */
 }
 
 .prodSect3_child2 {
-    width: 35vw;
+    width: 100%; /* Changed to 100% for responsiveness */
     justify-self: center;
 }
 
 .prodSect3_child3 {
-    width: 35vw;
-    height: 25vh;
+    width: 100%; /* Changed to 100% for responsiveness */
+    height: auto; /* Changed to auto for responsiveness */
     border-radius: 30px;
     background-color: #d9d9d9;
     position: relative;
@@ -232,28 +225,28 @@ footer {
 }
 
 #prodSect4 {
-    height: 100vh;
+    height: auto; /* Changed to auto for responsiveness */
     border: 1px solid black;
-    width: 80vw;
+    width: 90%; /* Changed to percentage for responsiveness */
     justify-self: center;
     background-color: white;
 }
 
 .prodSect4_child1 {
-    width: 35vw;
+    width: 100%; /* Changed to 100% for responsiveness */
     justify-content: center;
     position: relative;
-    height: 300px;
+    height: auto; /* Changed to auto for responsiveness */
 }
 
 .prodSect4_child2 {
-    width: 35vw;
+    width: 100%; /* Changed to 100% for responsiveness */
     justify-self: center;
 }
 
 .prodSect4_child3 {
-    width: 35vw;
-    height: 25vh;
+    width: 100%; /* Changed to 100% for responsiveness */
+    height: auto; /* Changed to auto for responsiveness */
     border-radius: 30px;
     background-color: #d9d9d9;
     position: relative;
@@ -261,28 +254,28 @@ footer {
 }
 
 #prodSect5 {
-    height: 110vh;
+    height: auto; /* Changed to auto for responsiveness */
     border: 1px solid black;
-    width: 80vw;
+    width: 90%; /* Changed to percentage for responsiveness */
     justify-self: center;
     background-color: white;
 }
 
 .prodSect5_child1 {
-    width: 35vw;
+    width: 100%; /* Changed to 100% for responsiveness */
     justify-content: center;
     position: relative;
-    height: 300px;
+    height: auto; /* Changed to auto for responsiveness */
 }
 
 .prodSect5_child2 {
-    width: 35vw;
+    width: 100%; /* Changed to 100% for responsiveness */
     justify-self: center;
 }
 
 .prodSect5_child3 {
-    width: 35vw;
-    height: 25vh;
+    width: 100%; /* Changed to 100% for responsiveness */
+    height: auto; /* Changed to auto for responsiveness */
     border-radius: 30px;
     background-color: #d9d9d9;
     position: relative;
@@ -290,30 +283,43 @@ footer {
 }
 
 #prodSect6 {
-    height: 105vh;
+    height: auto; /* Changed to auto for responsiveness */
     border: 1px solid black;
-    width: 80vw;
+    width: 90%; /* Changed to percentage for responsiveness */
     justify-self: center;
     background-color: white;
 }
 
 .prodSect6_child1 {
-    width: 35vw;
+    width: 100%; /* Changed to 100% for responsiveness */
     justify-content: center;
     position: relative;
-    height: 300px;
+    height: auto; /* Changed to auto for responsiveness */
 }
 
 .prodSect6_child2 {
-    width: 35vw;
+    width: 100%; /* Changed to 100% for responsiveness */
     justify-self: center;
 }
 
 .prodSect6_child3 {
-    width: 35vw;
-    height: 25vh;
+    width: 100%; /* Changed to 100% for responsiveness */
+    height: auto; /* Changed to auto for responsiveness */
     border-radius: 30px;
     background-color: #d9d9d9;
     position: relative;
     justify-self: center;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+    .nav-bar {
+        flex-direction: column; /* Stack navbar items vertically */
+    }
+    .sect1_child1, .sect1_child2, .sect2_child1, .sect2_child2, .sect2_child3 {
+        width: 100%; /* Full width on smaller screens */
+    }
 }
