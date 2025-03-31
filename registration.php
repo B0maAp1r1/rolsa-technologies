@@ -53,6 +53,8 @@
                     mysqli_stmt_bind_param($stmt, "sss", $fullName, $email, $passwordhash);
                     mysqli_stmt_execute($stmt);
                     echo "<div class='alert alert-success'>You are registered successfully.</div>";
+                    header("Location: login.php");
+                    die();
                 }else{
                     die("Something went wrong");
                 }

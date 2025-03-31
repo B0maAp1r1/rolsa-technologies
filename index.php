@@ -16,8 +16,7 @@
             <a href="./index.php"><img width="100px" height="70px" style="position: relative; left: 100px; top: 2px;" src="./logos/Logo.png" alt="logo"></a>
           <nav style="display: flex; gap: 20px; position: relative; left: 35%; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; padding-top: 15px; font-size: 25px;">
             <a href="./index.php"><li>Home</li></a>
-            <a href="./products.php"><li>Products</li></a>
-            <a href="./services.php"><li>Services</li></a>
+            <a href="./products.php"><li>Products & Services</li></a>
             <a href="./rolsa.php"><li>Rolsa</li></a>
             <a href="./account.php"><i class="fa-solid fa-user" style="position: relative; left: 250px;"></i></a>
             <a href="./shopping-cart.php"><i class="fa-solid fa-cart-shopping" style="position: relative; left: 250px; top: 1%;"></i></a>
@@ -58,7 +57,7 @@
         <div class="sect2_child1" style="position: relative; top: 10%;">
             <h1 style="position: relative; padding-top: 10px; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; left: 5%;">EV <br> CHARGERS</h1>
             <br>
-            <img width="300px" height="400px" style="position: relative; left: 12%; border: 2px solid #75fb87; border-radius: 30px;" src="./Images/jamie-antoine-tZ6FRpxgKaA-unsplash.jpg" alt="">
+            <img width="425px" height="400px" style="position: relative; left: 7.5%; border: 2px solid #75fb87; border-radius: 15px;" src="./Images/jamie-antoine-tZ6FRpxgKaA-unsplash.jpg" alt="">
             <br><br>
             <p style="justify-self: start; position: relative; padding-top: 10px; font-size: 20px; left: 25px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;">Make use of our EV <br> charging stations</p>
             <br>
@@ -68,7 +67,7 @@
             <br>
             <h1 style="position: relative; padding-top: 10px; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; left: 5%;">SOLAR PANELS</h1>
             <br><br>
-            <img width="300px" height="400px" style="position: relative; left: 12%; border: 2px solid black; border-radius: 30px;" src="./Images/anders-j-hxUcl0nUsIY-unsplash.jpg" alt="">
+            <img width="425px" height="400px" style="position: relative; left: 7.5%; border: 2px solid black; border-radius: 15px;" src="./Images/jonathan-mai-gticrpTJtt0-unsplash.jpg" alt="">
             <br><br>
             <p style="justify-self: start; position: relative; padding-top: 3px; font-size: 20px; left: 25px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;">Get your home and <br> business green with <br> our solar panels</p>
             <br>
@@ -77,7 +76,7 @@
         <div class="sect2_child3" style="position: relative; top: 10%;">
             <h1 style="position: relative; padding-top: 10px; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; left: 5%;">BATTERY STORAGE SYSTEM</h1>
             <br>
-            <img width="300px" height="400px" style="position: relative; left: 12%; border: 2px solid white; border-radius: 30px;" src="./Images/solar-energy-battery-storage-system.jpg" alt="">
+            <img width="425px" height="400px" style="position: relative; left: 7.5%; border: 2px solid white; border-radius: 15px;" src="./Images/zendure-power-station-DjknAhHi0OY-unsplash.jpg" alt="">
             <br><br>
             <p style="justify-self: start; position: relative; padding-top: 3px; font-size: 20px; left: 25px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;">Save all that surplus <br> solar energy with our <br> battery storage system</p>
             <br>

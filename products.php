@@ -15,8 +15,7 @@
             <a href="./index.php"><img width="100px" height="70px" style="position: relative; left: 100px; top: 2px;" src="./logos/Logo.png" alt="logo"></a>
             <nav style="display: flex; gap: 20px; position: relative; left: 35%; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; padding-top: 15px; font-size: 25px;">
                 <a href="./index.php"><li>Home</li></a>
-                <a href="./products.php"><li>Products</li></a>
-                <a href="./services.php"><li>Services</li></a>
+                <a href="./products.php"><li>Products & Servcies</li></a>
                 <a href="./rolsa.php"><li>Rolsa</li></a>
                 <a href="./account.php"><i class="fa-solid fa-user" style="position: relative; left: 250px;"></i></a>
                 <a href="./shopping-cart.php"><i class="fa-solid fa-cart-shopping" style="position: relative; left: 250px; top: 1%;"></i></a>
@@ -32,8 +31,8 @@
     <div id="prodSect1">
         <div class="prodSect1_child1">
             <div style="display: flex;">
-                <img width="50%"  height="350px" src="./Images/zendure-power-station-DjknAhHi0OY-unsplash.jpg" alt="">
-                <img width="50%"  height="350px" src="./Images/green-energy-monitor.jpg" alt="">
+                <img class="image-hover" width="50%" height="350px" src="./Images/zendure-power-station-DjknAhHi0OY-unsplash.jpg" alt="">
+                <img class="image-hover" width="50%" height="350px" src="./Images/green-energy-monitor.jpg" alt="">
             </div>
             <div>
                 <img width="100%" height="439px" src="./Images/michael-fortsch-bIm9salXn-g-unsplash.jpg" alt="">
@@ -51,7 +50,6 @@
                 <br><br>
                 <div style="display: flex; gap: 10px;">
                     <a href="./rolsa.php"><button style="background-color: black; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; height: 45px; width: 150px; border-radius: 50px; color: #75fb87;">Find Out More</button></a>
-                    <a href="./services.php"><button style="background-color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; height: 45px; width: 175px; border-radius: 50px; color: black;">Book a Consultation</button></a>
                 </div>
             </div>
         </div>
@@ -90,18 +88,21 @@
             </div>
         </div>
         <br><br>
-        <div class="prodSect2_child3">
+        <div class="prodSect2_child3" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
             <p style="width: 100px; position: relative; left: 5%; top: 20%;">From £439</p>
             <p style="width: 150px; position: relative; left: 5%; top: 15%;">inc. VAT if applicable</p>
             <div style="display: flex; gap: 20px; position: relative; top: 20%; justify-self: center;">
                 <div style="display: flex; width: 71px; background-color: white; position: relative; justify-content: center; height: 25px; color: black; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; border-radius: 50px;">
-                    <button style="border: 0; height: 20px; position: relative; top: 1px; border-right: 1px solid black;">-</button>
-                    <button style="border: 0; height: 20px; position: relative; top: 1px;">1</button>
-                    <button style="border: 0; height: 20px; position: relative; top: 1px; border-left: 1px solid black;">+</button>
+                    <button onclick="decrease()" style="border: 0; height: 25px; position: relative; border-right: 1px solid black;">-</button>
+                    <button id="quantityDisplay" style="border: 0; height: 25px; position: relative;">1</button>
+                    <button onclick="increase()" style="border: 0; height: 25px; position: relative; border-left: 1px solid black;">+</button>
                 </div>
                 <div>
                     <button style="background-color: #75fb87; width: 150px; color: black; border-radius: 50px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Add to basket</button>
                 </div>
+            </div>
+            <div style="position: relative; left: 50px; top: 125px; font-size: 11px;">
+                <p>Payment options available at checkout. <br> Terms and condition apply</p>
             </div>
         </div>
     </div>
@@ -130,59 +131,31 @@
                 </div>
             </div>
         </div>
+        <br>
         <div class="prodSect3_child3">
-                    <p></p>
+            <p style="width: 100px; position: relative; left: 5%; top: 20%;">From £65</p>
+            <p style="width: 150px; position: relative; left: 5%; top: 15%;">inc. VAT if applicable</p>
+            <div style="display: flex; gap: 20px; position: relative; top: 20%; justify-self: center;">
+                <div>
+                    <button style="background-color: #75fb87; width: 150px; color: black; border-radius: 50px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Add to basket</button>
                 </div>
+            </div>
+            <div style="position: relative; left: 50px; top: 125px; font-size: 11px;">
+                <p>Payment options available at checkout. <br> Terms and condition apply</p>
+            </div>
+        </div>
     </div>
 
     <!-- 4th section -->
     <div id="prodSect4">
-        <br><br><br>
-        <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; position: relative; left: 10%;">Solar Power Diverter</h1>
-        <hr style="border: 2px solid black; opacity: 100%; width: 17vw; position: relative; left: 10%;">
-        <div style="width: 80vw; justify-self: center; display: flex; background-color: white; justify-content: center;">
-            <div class="prodSect4_child1">
-                <img style="width: 75%; height: 550px; border-radius: 30px; box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px; position: relative; left: 12.5%; top: 10%; justify-self: center;" src="./Images/eldo-rafael-iLrMw5v4afE-unsplash.jpg" alt="ev-charger">
-            </div>
-            <div class="prodSect4_child2">
-                <div style="background-color: #75fb87; width: 75%; border-radius: 30px; height: 300px; position: relative; top: 5%; justify-self: center;">
-                    <p style="width: 85%; position: relative; top: 10%; justify-self: center; font-size: 25px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
-                        Our latest innovation, the zappi multiphase, brings flexible charging options to suit diverse needs. With selectable power settings of 7kW and 22kW, this charger adapts seamlessly to single or three-phase electrical setups, delivering efficient, high-speed charging tailored to every user’s setup.
-                    </p>
-                </div>
-                <br><br><br>
-                <div style="background-color: black; border-radius: 30px; color: white; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; opacity: 100%; height: 375px; width: 500px; justify-content: center; justify-self: center;">
-                    <p style="position: relative; top: 10%; left: 10%;">Power</p>
-                    <button style="width: 150px; position: relative; border-radius: 10px; top: 10%; left: 15%;">1 - Phase</button>
-                    <button style="width: 150px; position: relative; border-radius: 10px; top: 10%; left: 20%;">3 - Phase</button>
-                    <hr style="position: relative; width: 75%;  top: 10%; opacity: 100%; top: 10%; justify-self: center;" color="white">
-                    <p style="position: relative; top: 10%; left: 10%;">Colour</p>
-                    <button style="width: 100px; position: relative; border-radius: 10px; top: 10%; left: 15%;">Black</button>
-                    <button style="width: 100px; position: relative; border-radius: 10px; top: 10%; left: 20%;">White</button>
-                    <hr style="position: relative; width: 75%; top: 10%; opacity: 100%; justify-self: center;" color="white">
-                    <p style="position: relative; top: 10%; left: 10%;">Book an Installation</p>
-                    <button style="width: 100px; position: relative; border-radius: 10px; top: 10%; left: 15%;">Yes</button>
-                    <button style="width: 100px; position: relative; border-radius: 10px; top: 10%; left: 20%;">No</button>
-                    <hr style="position: relative; width: 75%; top: 10%; opacity: 100%; justify-self: center;" color="white">
-                </div>
-            </div>
-        </div>
-        <br><br>
-        <div class="prodSect4_child3">
-
-        </div>
-    </div>
-
-    <!-- 5th section -->
-    <div id="prodSect5">
         <br>
         <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; position: relative; left: 10%;">Battery Storage System</h1>
         <hr style="border: 2px solid black; opacity: 100%; width: 20vw; position: relative; left: 10%;">       
         <div style="width: 80vw; justify-self: center; display: flex; background-color: white; justify-content: center;">
-            <div class="prodSect5_child1">
+            <div class="prodSect4_child1">
                 <img style="width: 75%; height: 550px; border-radius: 30px; box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px; position: relative; left: 12.5%; top: 10%; justify-self: center;" src="./Images/zendure-power-station-DjknAhHi0OY-unsplash.jpg" alt="ev-charger">
             </div>
-            <div class="prodSect5_child2">
+            <div class="prodSect4_child2">
                 <div style="background-color: #75fb87; width: 75%; border-radius: 30px; height: 300px; position: relative; top: 5%; justify-self: center;">
                     <p style="width: 85%; position: relative; top: 10%; justify-self: center; font-size: 25px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
                         Our latest innovation, the zappi multiphase, brings flexible charging options to suit diverse needs. With selectable power settings of 7kW and 22kW, this charger adapts seamlessly to single or three-phase electrical setups, delivering efficient, high-speed charging tailored to every user’s setup.
@@ -195,8 +168,8 @@
                     <button style="width: 150px; position: relative; border-radius: 10px; top: 5%; left: 20%;">No</button>
                     <hr style="position: relative; width: 75%;  top: 5%; opacity: 100%; top: 5%; justify-self: center;" color="white">
                     <p style="position: relative; top: 5%; left: 10%;">Choose your Inverter</p>
-                    <button style="width: 100px; position: relative; border-radius: 10px; top: 5%; left: 15%;">Smaller PV arrays (3.68 kW)</button>
-                    <button style="width: 100px; position: relative; border-radius: 10px; top: 5%; left: 20%;">LargeR PV arrays (5 kW)</button>
+                    <button style="width: 150px; position: relative; border-radius: 10px; top: 5%; left: 15%;">Smaller PV arrays <br> (3.68 kW)</button>
+                    <button style="width: 150px; position: relative; border-radius: 10px; top: 5%; left: 20%;">Larger PV arrays <br> (5 kW)</button>
                     <hr style="position: relative; width: 75%; top: 5%; opacity: 100%; justify-self: center;" color="white">
                     <p style="position: relative; top: 5%; left: 10%;">How much storage would you like ?</p>
                     <button style="width: 100px; position: relative; border-radius: 10px; top: 5%; left: 15%;"> 5 kW</button>
@@ -213,20 +186,35 @@
             </div>
         </div>
         <br>
-        <div class="prodSect5_child3">
-
+        <div class="prodSect4_child3">
+            <p style="width: 100px; position: relative; left: 5%; top: 20%;">From £439</p>
+            <p style="width: 150px; position: relative; left: 5%; top: 15%;">inc. VAT if applicable</p>
+            <div style="display: flex; gap: 20px; position: relative; top: 20%; justify-self: center;">
+                <div style="display: flex; width: 71px; background-color: white; position: relative; justify-content: center; height: 25px; color: black; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; border-radius: 50px;">
+                    <button onclick="decrease()" style="border: 0; height: 25px; position: relative; border-right: 1px solid black;">-</button>
+                    <button id="quantityDisplay" style="border: 0; height: 25px; position: relative;">1</button>
+                    <button onclick="increase()" style="border: 0; height: 25px; position: relative; border-left: 1px solid black;">+</button>
+                </div>
+                <div>
+                    <button style="background-color: #75fb87; width: 150px; color: black; border-radius: 50px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Add to basket</button>
+                </div>
+            </div>
+            <div style="position: relative; left: 50px; top: 125px; font-size: 11px;">
+                <p>Payment options available at checkout. <br> Terms and condition apply</p>
+            </div>
         </div>
     </div>
-    <!-- 6th section -->
-    <div id="prodSect6">
+    
+    <!-- 5th section -->
+    <div id="prodSect5">
         <br><br>
         <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; position: relative; left: 10%;">Solar Panel</h1>
         <hr style="border: 2px solid black; opacity: 100%; width: 15vw; position: relative; left: 10%;">
         <div style="width: 80vw; justify-self: center; display: flex; background-color: white; justify-content: center;">
-            <div class="prodSect6_child1">
+            <div class="prodSect5_child1">
                 <img style="width: 75%; height: 550px; border-radius: 30px; box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px; position: relative; left: 12.5%; top: 10%; justify-self: center;" src="./Images/michael-fortsch-bIm9salXn-g-unsplash.jpg" alt="solar panel">
             </div>
-            <div class="prodSect6_child2">
+            <div class="prodSect5_child2">
                 <div style="background-color: #75fb87; width: 75%; border-radius: 30px; height: 300px; position: relative; top: 5%; justify-self: center;">
                     <p style="width: 85%; position: relative; top: 10%; justify-self: center; font-size: 25px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
                         Our latest innovation, the zappi multiphase, brings flexible charging options to suit diverse needs. With selectable power settings of 7kW and 22kW, this charger adapts seamlessly to single or three-phase electrical setups, delivering efficient, high-speed charging tailored to every user’s setup.
@@ -256,7 +244,7 @@
             </div>
         </div>
         <br>
-        <div class="prodSect6_child3">
+        <div class="prodSect5_child3">
         </div>
     </div>
 
@@ -286,5 +274,26 @@
             <a href="./security-vulnerabilities.php"><li style="font-size: 35px; opacity: 75%;">Security & Vulnerabilities</li></a>
         </div>
     </footer>
+
+    <script>
+        let quantity = 1; // Initialize quantity
+
+        function increase() {
+            quantity++;
+            updateQuantityDisplay();
+        }
+
+        function decrease() {
+            if (quantity > 1) {
+                quantity--;
+                updateQuantityDisplay();
+            }
+        }
+
+
+        function updateQuantityDisplay() {
+            document.getElementById('quantityDisplay').innerText = quantity;
+        }
+    </script>
 </body>
 </html>

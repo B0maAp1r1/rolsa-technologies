@@ -72,31 +72,31 @@ a {
 
 .sect2_child1 {
     position: relative;
-    left: 10%;
+    left: 6%;
     background-color: black;
     border-radius: 15px;
     height: 750px;
-    width: 400px;
+    width: 500px;
     color: #75fb87;
 }
 
 .sect2_child2 {
     position: relative;
-    left: 20%;
+    left: 13%;
     background-color: #75fb87;
     border-radius: 15px;
     height: 750px;
-    width: 400px;
+    width: 500px;
     color: black;
 }
 
 .sect2_child3 {
     position: relative;
-    left: 30%;
+    left: 20%;
     background-color: #d9d9d9;
     border-radius: 15px;
     height: 750px;
-    width: 400px;
+    width: 500px;
     color: black; 
 }
 
@@ -232,7 +232,7 @@ footer {
 }
 
 #prodSect4 {
-    height: 100vh;
+    height: 110vh;
     border: 1px solid black;
     width: 80vw;
     justify-self: center;
