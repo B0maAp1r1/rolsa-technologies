@@ -34,6 +34,17 @@
     transform: scale(1.1); /* Slightly enlarge the icon/text */
 }
 
+#nav-bar li {
+    color: white; /* Default color */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+#nav-bar li:hover {
+    color: #75fb87; /* Change color on hover */
+    transform: scale(1.1); /* Slightly enlarge the icon/text */
+}
+
+
 
 /* index.php styling */
 li {
@@ -324,6 +335,9 @@ footer {
     top: 150px; 
     justify-self: center; 
     width: 80vw;
+    box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+    padding: 50px;
+    border-radius: 15px;
 }
 
 #contactLocate {
@@ -335,8 +349,4 @@ footer {
 #contactLocate iframe {
     width: 70vw;
     box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
-}
-
-#contactForm {
-
 }

@@ -12,20 +12,24 @@
 <body style="background-color: #75fb87; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" >
     <!-- navbar section -->
     <div id="nav-bar" style="background-color: black; height: 75px; position: absolute; display: flex; top: 25px; border-radius: 50px; left: 25%; width: 50vw;">
-        <a href="./index.php" style="position: relative; border: 1px solid #75fb87; left: 300px;"><img width="100px" height="75px" src="./logos/Logo maker project.png" alt="logo"></a>
-        <nav style="display: flex; gap: 20px; position: relative; left: 27.5%; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; padding-top: 15px; font-size: 25px;">
-            <a href="./index.php"><li>Home</li></a>
-            <a href="./products.php"><li>Products & Services</li></a>
-            <a href="./rolsa.php"><li>Rolsa</li></a>
-            <a href="./account.php"><i class="fa-solid fa-user" style="position: relative; left: 150px;"></i></a>
-            <a href="./shopping-cart.php"><i class="fa-solid fa-cart-shopping" style="position: relative; left: 150px; top: 1%;"></i></a>
+        <a href="./index.php" style="position: relative; border: 1px solid #75fb87; left: 300px;"><img width="100px" height="73px" src="./logos/Logo maker project.png" alt="logo"></a>
+        <nav style="display: flex; position: relative; left: 27.5%; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; padding-top: 15px; font-size: 25px;">
+            <ul style="display: flex; gap: 20px;">
+                <li><a href="./index.php">Home</a></li>
+                <li><a href="./products.php">Products & Services</a></li>
+                <li><a href="./rolsa.php">Rolsa</a></li>
+            </ul>
+            <span style="display: flex; gap: 20px;">
+                <a href="./account.php" style="position: relative; left: 100px;"><i class="fa-solid fa-user"></i></a>
+                <a href="./shopping-cart.php" style="position: relative; left: 100px; top: 1%;"><i class="fa-solid fa-cart-shopping"></i></a>
+            </span>
         </nav>
     </div>
     
     <!--  -->
-    <div id="contactSect1">
+    <div id="contactSect1" style="background-color: white;">
         <div id="contactLocate">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2456.6457244522685!2d-0.7816601221922813!3d51.995110571928386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876ff8daa6dcdc9%3A0x1a93ec62c147871a!2s7%20Porthmellin%20Cl%2C%20Tattenhoe%2C%20Milton%20Keynes%20MK4%203AQ!5e0!3m2!1sen!2suk!4v1732634450112!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2456.6903937390025!2d-0.7416801221947547!3d51.994296471928116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487655168fa387cf%3A0xba7e22102fc73722!2sMilton%20Keynes%20College%20Bletchley%20Campus!5e0!3m2!1sen!2suk!4v1743521525646!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <br><br><br>
         <div id="contactMain">
@@ -35,6 +39,8 @@
                     <h3>Milton Keynes College Bletchley Campus, Sherwood Dr,</h3>
                     <p>Bletchley, Milton Keynes MK3 6DR</p>
                 </div>
+                <hr style="width: 50%; border: 1px solid black;">
+                <br>
                 <div id="contactPhone">
                     <div style="display: flex;">
                         <i class="fa fa-phone" style="position: relative; top: 11px;"></i>
@@ -42,6 +48,8 @@
                     </div>
                     <p>Available Monday to Sarturday, 9am to 5pm</p>
                 </div>
+                <hr style="width: 50%; border: 1px solid black;">
+                <br>
                 <div id="contactEmail">
                     <div style="display: flex;">
                         <i class="fa fa-envelope" style="position: relative; top: 11px;"></i>
@@ -49,18 +57,29 @@
                     </div>
                     <p>Email us your query.</p>
                 </div>
+                <hr style="width: 50%; border: 1px solid black;">
+                <br>
             </div>
-            <div id="contactForm">
-                <form action="form-handler.php" method="post">
-                    <input type="text" name="name" placeholder="Enter your Name" required>
-                    <input type="email" name="email" placeholder="Enter your Email Address" required>
-                    <textarea rows="8" name="Message" placeholder="Message" required></textarea>
-                    <button type="Submit" id="hero-btn red-btn" class="bg-info text-black">Send Message</button>
+            <br>
+            <div class="container">
+                <form action="registration.php" method="post">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="fullname" placeholder="Full Name:">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="email" placeholder="Email:">
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="8" type="text" class="form-control" name="message" placeholder="Message" required></textarea>
+                    </div>
+                    <br>
+                    <div class="form-btn" style="position: relative; left: 80%;">
+                        <input type="Submit" style="background: #75fb87; text-decoration: underline; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" class="btn" value="Send Message" name="submit">
+                    </div>
                 </form>
-            </div>
         </div>
     </div>
-
+    <br>
     <!-- footer section -->
     <footer style="display: flex;">
         <div class="footer_child1" style="position: relative; top: 10%; height: 100%; height: 300px; width: 400px;">

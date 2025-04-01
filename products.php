@@ -13,17 +13,17 @@
     <div style="height: 30vh; width: 80vw; background-color: black; justify-self: center;">
         <!-- navbar section -->
         <div id="nav-bar" style="background-color: black; height: 75px; position: absolute; display: flex; top: 25px; border-radius: 50px; left: 25%; width: 50vw;">
-            <a href="./index.php" style="position: relative; border: 1px solid #75fb87; left: 300px;">
-                <img width="100px" height="75px" src="./logos/Logo maker project.png" alt="logo">
-            </a>
-            <nav style="display: flex; gap: 20px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; padding-top: 15px; font-size: 25px;">
+            <a href="./index.php" style="position: relative; border: 1px solid #75fb87; left: 300px;"><img width="100px" height="73px" src="./logos/Logo maker project.png" alt="logo"></a>
+            <nav style="display: flex; position: relative; left: 27.5%; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; padding-top: 15px; font-size: 25px;">
                 <ul style="display: flex; gap: 20px;">
                     <li><a href="./index.php">Home</a></li>
                     <li><a href="./products.php">Products & Services</a></li>
                     <li><a href="./rolsa.php">Rolsa</a></li>
-                    <li><a href="./account.php"><i class="fa-solid fa-user"></i></a></li>
-                    <li><a href="./shopping-cart.php"><i class="fa-solid fa-cart-shopping"></i></a></li>
                 </ul>
+                <span style="display: flex; gap: 20px;">
+                    <a href="./account.php" style="position: relative; left: 100px;"><i class="fa-solid fa-user"></i></a>
+                    <a href="./shopping-cart.php" style="position: relative; left: 100px; top: 1%;"><i class="fa-solid fa-cart-shopping"></i></a>
+                </span>
             </nav>
         </div>
         <div style="width: 15vw; position: relative; left: 5%; top: 250px;">
