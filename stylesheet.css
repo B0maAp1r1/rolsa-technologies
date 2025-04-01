@@ -24,12 +24,12 @@
 
 
 /* navbar styling */
-.nav-bar a {
+#nav-bar a {
     color: white; /* Default color */
     transition: all 0.3s ease; /* Smooth transition */
 }
 
-.nav-bar a:hover {
+#nav-bar a:hover {
     color: #75fb87; /* Change color on hover */
     transform: scale(1.1); /* Slightly enlarge the icon/text */
 }
@@ -319,3 +319,24 @@ footer {
 }
 
 /* Contact.php styling */
+#contactSect1 {
+    position: relative; 
+    top: 150px; 
+    justify-self: center; 
+    width: 80vw;
+}
+
+#contactLocate {
+    position: relative;
+    justify-self: center;
+    width: 70vw;
+}
+
+#contactLocate iframe {
+    width: 70vw;
+    box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+}
+
+#contactForm {
+
+}

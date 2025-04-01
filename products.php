@@ -12,7 +12,7 @@
 <body style="background: #d9d9d9;">
     <div style="height: 30vh; width: 80vw; background-color: black; justify-self: center;">
         <!-- navbar section -->
-        <div class="nav-bar" style="background-color: black; height: 75px; position: absolute; display: flex; top: 25px; border-radius: 50px; left: 25%; width: 50vw;">
+        <div id="nav-bar" style="background-color: black; height: 75px; position: absolute; display: flex; top: 25px; border-radius: 50px; left: 25%; width: 50vw;">
             <a href="./index.php" style="position: relative; border: 1px solid #75fb87; left: 300px;">
                 <img width="100px" height="75px" src="./logos/Logo maker project.png" alt="logo">
             </a>

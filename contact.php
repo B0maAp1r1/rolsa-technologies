@@ -9,45 +9,56 @@
     <link rel="stylesheet" href="stylesheet.css">
     <title>Contact</title>
 </head>
-<body style="background-color: #75fb87;" >
-    <div>
-        <section id="location">
+<body style="background-color: #75fb87; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" >
+    <!-- navbar section -->
+    <div id="nav-bar" style="background-color: black; height: 75px; position: absolute; display: flex; top: 25px; border-radius: 50px; left: 25%; width: 50vw;">
+        <a href="./index.php" style="position: relative; border: 1px solid #75fb87; left: 300px;"><img width="100px" height="75px" src="./logos/Logo maker project.png" alt="logo"></a>
+        <nav style="display: flex; gap: 20px; position: relative; left: 27.5%; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; padding-top: 15px; font-size: 25px;">
+            <a href="./index.php"><li>Home</li></a>
+            <a href="./products.php"><li>Products & Services</li></a>
+            <a href="./rolsa.php"><li>Rolsa</li></a>
+            <a href="./account.php"><i class="fa-solid fa-user" style="position: relative; left: 150px;"></i></a>
+            <a href="./shopping-cart.php"><i class="fa-solid fa-cart-shopping" style="position: relative; left: 150px; top: 1%;"></i></a>
+        </nav>
+    </div>
+    
+    <!--  -->
+    <div id="contactSect1">
+        <div id="contactLocate">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2456.6457244522685!2d-0.7816601221922813!3d51.995110571928386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876ff8daa6dcdc9%3A0x1a93ec62c147871a!2s7%20Porthmellin%20Cl%2C%20Tattenhoe%2C%20Milton%20Keynes%20MK4%203AQ!5e0!3m2!1sen!2suk!4v1732634450112!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-        </section>
-
-        <section id="contactUs">
-
-            <div id="contactMain">
-                <div id="contactLabels">
-                    <div>
-                        <i id="fa fa-home"></i>
-                        <h5>7 Porthmellin Close</h5>
-                        <p>Rosemullion Avenue, Tattenhoe</p>
-                    </div>
-                    <div>
-                        <i id="fa fa-phone"></i>
-                        <h5>+44 7311308686</h5>
-                        <p>Available Monday to Sarturday, 10am to 6pm</p>
-                    </div>
-                    <div>
-                        <i id="fa fa-envelope"></i>
-                        <h5>sales@rolsatech.com</h5>
-                        <p>Email us your query</p>
-                    </div>
+        </div>
+        <br><br><br>
+        <div id="contactMain">
+            <div id="contactLabels">
+                 <div id="contactOffice">
+                    <i id="fa fa-home"></i>
+                    <h3>Milton Keynes College Bletchley Campus, Sherwood Dr,</h3>
+                    <p>Bletchley, Milton Keynes MK3 6DR</p>
                 </div>
-                <div id="contactInputs">
-
-                    <form action="form-handler.php" method="post">
-                        <input type="text" name="name" placeholder="Enter your Name" required>
-                        <input type="email" name="email" placeholder="Enter your Email Address" required>
-                        <textarea rows="8" name="Message" placeholder="Message" required></textarea>
-                        <button type="Submit" id="hero-btn red-btn" class="bg-info text-black">Send Message</button>
-                    </form>
-
+                <div id="contactPhone">
+                    <div style="display: flex;">
+                        <i class="fa fa-phone" style="position: relative; top: 11px;"></i>
+                        <h3>+44 758 6583 420</h3>
+                    </div>
+                    <p>Available Monday to Sarturday, 9am to 5pm</p>
+                </div>
+                <div id="contactEmail">
+                    <div style="display: flex;">
+                        <i class="fa fa-envelope" style="position: relative; top: 11px;"></i>
+                        <h3>sales@rolsatech.com</h3>
+                    </div>
+                    <p>Email us your query.</p>
                 </div>
             </div>
-        </section>
+            <div id="contactForm">
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter your Name" required>
+                    <input type="email" name="email" placeholder="Enter your Email Address" required>
+                    <textarea rows="8" name="Message" placeholder="Message" required></textarea>
+                    <button type="Submit" id="hero-btn red-btn" class="bg-info text-black">Send Message</button>
+                </form>
+            </div>
+        </div>
     </div>
 
     <!-- footer section -->
