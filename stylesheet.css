@@ -31,7 +31,7 @@
 
 .nav-bar a:hover {
     color: #75fb87; /* Change color on hover */
-    transform: scale(1.05); /* Slightly enlarge the icon/text */
+    transform: scale(1.1); /* Slightly enlarge the icon/text */
 }
 
 
@@ -317,3 +317,5 @@ footer {
     position: relative;
     justify-self: center;
 }
+
+/* Contact.php styling */

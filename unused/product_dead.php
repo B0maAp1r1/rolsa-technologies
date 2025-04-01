@@ -6,28 +6,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./stylesheet.css">
-    <link rel="stylesheet" href="./responsive_styles.css">
     <title>Document</title>
 </head>
 <body style="background: #d9d9d9;">
     <div style="height: 30vh; width: 80vw; background-color: black; justify-self: center;">
-        <!-- navbar section -->
-        <div class="nav-bar" style="background-color: black; height: 75px; position: absolute; display: flex; top: 25px; border-radius: 50px; left: 25%; width: 50vw;">
-            <a href="./index.php" style="position: relative; border: 1px solid #75fb87; left: 300px;">
-                <img width="100px" height="75px" src="./logos/Logo maker project.png" alt="logo">
-            </a>
-            <nav style="display: flex; gap: 20px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; padding-top: 15px; font-size: 25px;">
-                <ul style="display: flex; gap: 20px;">
-                    <li><a href="./index.php">Home</a></li>
-                    <li><a href="./products.php">Products & Services</a></li>
-                    <li><a href="./rolsa.php">Rolsa</a></li>
-                    <li><a href="./account.php"><i class="fa-solid fa-user"></i></a></li>
-                    <li><a href="./shopping-cart.php"><i class="fa-solid fa-cart-shopping"></i></a></li>
-                </ul>
-            </nav>
-        </div>
+
+    <!-- navbar section -->
+    <div class="nav-bar" style="background-color: black; height: 75px; position: absolute; display: flex; top: 25px; border-radius: 50px; left: 25%; width: 50vw;">
+        <a href="./index.php"><img width="100px" height="75px" style="position: relative; border: 1px solid #75fb87; left: 300px;" src="./logos/Logo maker project.png" alt="logo"></a>
+        <nav style="display: flex; gap: 20px; position: relative; left: 27.5%; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; padding-top: 15px; font-size: 25px;">
+            <a href="./index.php"><li>Home</li></a>
+            <a href="./products.php"><li>Products & Services</li></a>
+            <a href="./rolsa.php"><li>Rolsa</li></a>
+            <a href="./account.php"><i class="fa-solid fa-user" style="position: relative; left: 150px;"></i></a>
+            <a href="./shopping-cart.php"><i class="fa-solid fa-cart-shopping" style="position: relative; left: 150px; top: 1%;"></i></a>
+        </nav>
+    </div>
         <div style="width: 15vw; position: relative; left: 5%; top: 250px;">
-            <h1 style="color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Products</h1>
+            <h1 style=" color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Products</h1>
             <hr style="border: 2px solid white; opacity: 100%; width: 15vw;">
         </div>
     </div>
@@ -50,7 +46,7 @@
                 </h1>
                 <br><br>
                 <p style="font-size: 20.5px; font-family: georgia;">
-                    From solar panels and EV chargers to energy storage, our solutions work seamlessly together to optimise energy use, reduce costs, and increase efficiency. With myenergi, you can power your home sustainably and take full control of your energy consumption.
+                From solar panels and EV chargers to energy storage, our solutions work seamlessly together to optimise energy use, reduce costs, and increase efficiency. With myenergi, you can power your home sustainably and take full control of your energy consumption.
                 </p>
                 <br><br>
                 <div style="display: flex; gap: 10px;">
@@ -94,14 +90,16 @@
         </div>
         <br><br>
         <div class="prodSect2_child3" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+            <p style="width: 100px; position: relative; left: 5%; top: 20%;">From £439</p>
+            <p style="width: 150px; position: relative; left: 5%; top: 15%;">inc. VAT if applicable</p>
             <div style="display: flex; gap: 20px; position: relative; top: 20%; justify-self: center;">
                 <div style="display: flex; width: 71px; background-color: white; position: relative; justify-content: center; height: 25px; color: black; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; border-radius: 50px;">
-                    <button class="quantity-decrease" style="border: 0; height: 25px; position: relative; border-right: 1px solid black;">-</button>
-                    <span class="quantity-display" style="border: 0; height: 25px; position: relative;">1</span>
-                    <button class="quantity-increase" style="border: 0; height: 25px; position: relative; border-left: 1px solid black;">+</button>
+                    <button style="border: 0; height: 25px; position: relative; border-right: 1px solid black;">-</button>
+                    <button style="border: 0; height: 25px; position: relative;">1</button>
+                    <button style="border: 0; height: 25px; position: relative; border-left: 1px solid black;">+</button>
                 </div>
                 <div>
-                    <button class="add-to-basket" style="background-color: #75fb87; width: 150px; color: black; border-radius: 50px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Add to basket</button>
+                    <button style="background-color: #75fb87; width: 150px; color: black; border-radius: 50px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Add to basket</button>
                 </div>
             </div>
             <div style="position: relative; left: 50px; top: 125px; font-size: 11px;">
@@ -238,7 +236,7 @@
                     <br><br>
                     <button style="width: 100px; position: relative; border-radius: 10px; top: 5%; left: 15%;">15 kW</button>
                     <button style="width: 100px; position: relative; border-radius: 10px; top: 5%; left: 20%;">20 kW</button>
-                    <hr style="position: relative; width: 75%; top: 10%; opacity: 100%; justify-self: center;" color="white">
+                    <hr style="position: relative; width: 75%; top: 5%; opacity: 100%; justify-self: center;" color="white">
                     <p style="position: relative; top: 10%; left: 10%;">Book an Installation</p>
                     <button style="width: 100px; position: relative; border-radius: 10px; top: 10%; left: 15%;">Yes</button>
                     <button style="width: 100px; position: relative; border-radius: 10px; top: 10%; left: 20%;">No</button>
@@ -247,23 +245,11 @@
             </div>
         </div>
         <br>
-        <div class="prodSect2_child3" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
-            <div style="display: flex; gap: 20px; position: relative; top: 20%; justify-self: center;">
-                <div style="display: flex; width: 71px; background-color: white; position: relative; justify-content: center; height: 25px; color: black; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; border-radius: 50px;">
-                    <button class="quantity-decrease" style="border: 0; height: 25px; position: relative; border-right: 1px solid black;">-</button>
-                    <span class="quantity-display" style="border: 0; height: 25px; position: relative;">1</span>
-                    <button class="quantity-increase" style="border: 0; height: 25px; position: relative; border-left: 1px solid black;">+</button>
-                </div>
-                <div>
-                    <button class="add-to-basket" style="background-color: #75fb87; width: 150px; color: black; border-radius: 50px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Add to basket</button>
-                </div>
-            </div>
-            <div style="position: relative; left: 50px; top: 125px; font-size: 11px;">
-                <p>Payment options available at checkout. <br> Terms and condition apply</p>
-            </div>
+        <div class="prodSect5_child3">
         </div>
     </div>
-    
+
+
     <footer style="display: flex;">
         <div class="footer_child1" style="position: relative; top: 10%; height: 100%; height: 300px; width: 400px;">
             <a href="./index.php"><img width="200px" height="150px" style="position: relative; left: 20%;" src="./logos/Logo.png" alt="logo"></a>
@@ -289,42 +275,5 @@
             <a href="./security-vulnerabilities.php"><li style="font-size: 35px; opacity: 75%;">Security & Vulnerabilities</li></a>
         </div>
     </footer>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // Quantity buttons
-            const quantityDisplay = document.querySelector('.quantity-display');
-            let quantity = 1;
-
-            document.querySelector('.quantity-increase').addEventListener('click', function() {
-                quantity++;
-                quantityDisplay.textContent = quantity;
-            });
-
-            document.querySelector('.quantity-decrease').addEventListener('click', function() {
-                if (quantity > 1) {
-                    quantity--;
-                    quantityDisplay.textContent = quantity;
-                }
-            });
-
-            // Add to Basket button
-            document.querySelector('.add-to-basket').addEventListener('click', function() {
-                const selectedQuantity = quantity;
-                // Capture preferences if needed
-                // Logic to add to basket can be implemented here
-                alert(`Added ${selectedQuantity} item(s) to the basket.`);
-            });
-
-            // Preference buttons
-            const preferenceButtons = document.querySelectorAll('.preference-button');
-            preferenceButtons.forEach(button => {
-                button.addEventListener('click', function() {
-                    preferenceButtons.forEach(btn => btn.style.backgroundColor = ''); // Reset color
-                    this.style.backgroundColor = '#75fb87'; // Change color on click
-                });
-            });
-        });
-    </script>
 </body>
 </html>

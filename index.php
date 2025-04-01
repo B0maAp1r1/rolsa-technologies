@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./logos/Logo maker project.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="stylesheet.css">
@@ -12,15 +13,15 @@
 <body style="background-color: black;">
 
     <!-- navbar section -->
-    <div class="nav-bar" style="background-color: black; height: 75px; position: absolute; display: flex; top: 25px; border-radius: 50px; left: 12.5%; width: 75vw;">
-            <a href="./index.php"><img width="100px" height="70px" style="position: relative; left: 100px; top: 2px;" src="./logos/Logo.png" alt="logo"></a>
-          <nav style="display: flex; gap: 20px; position: relative; left: 35%; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; padding-top: 15px; font-size: 25px;">
+    <div class="nav-bar" style="background-color: black; height: 75px; position: absolute; display: flex; top: 25px; border-radius: 50px; left: 25%; width: 50vw;">
+        <a href="./index.php" style="position: relative; border: 1px solid #75fb87; left: 300px;"><img width="100px" height="75px" src="./logos/Logo maker project.png" alt="logo"></a>
+        <nav style="display: flex; gap: 20px; position: relative; left: 27.5%; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; padding-top: 15px; font-size: 25px;">
             <a href="./index.php"><li>Home</li></a>
             <a href="./products.php"><li>Products & Services</li></a>
             <a href="./rolsa.php"><li>Rolsa</li></a>
-            <a href="./account.php"><i class="fa-solid fa-user" style="position: relative; left: 250px;"></i></a>
-            <a href="./shopping-cart.php"><i class="fa-solid fa-cart-shopping" style="position: relative; left: 250px; top: 1%;"></i></a>
-          </nav>
+            <a href="./account.php"><i class="fa-solid fa-user" style="position: relative; left: 150px;"></i></a>
+            <a href="./shopping-cart.php"><i class="fa-solid fa-cart-shopping" style="position: relative; left: 150px; top: 1%;"></i></a>
+        </nav>
     </div>
 
     <!-- 1st section -->
