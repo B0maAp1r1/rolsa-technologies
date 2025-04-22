@@ -56,7 +56,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['change_password'])) {
 // Handle sign out
 if (isset($_GET['signout'])) {
     session_destroy();
-    header("Location: login.php");
+    header("Location: index.php");
     exit();
 }
 ?>
@@ -107,7 +107,52 @@ if (isset($_GET['signout'])) {
         </form>
 
         <br />
-        <a href="account.php?signout=1" style="color: red; font-weight: bold;">Sign Out</a>
+        <a href="account.php?signout=1" id="signout-btn" style="color: red; font-weight: bold; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Sign Out</a>
     </div>
+
+    <script>
+        // Confirmation dialog before sign out
+        document.getElementById('signout-btn').addEventListener('click', function(event) {
+            if (!confirm('Are you sure you want to sign out?')) {
+                event.preventDefault();
+            }
+        });
+    </script>
+
+    <style>
+        form {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+            font-family: Arial, sans-serif;
+        }
+        form div {
+            margin-bottom: 12px;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 4px;
+        }
+        input[type="password"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-family: Arial, sans-serif;
+        }
+        button[type="submit"] {
+            background-color: #75fb87;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: Arial, sans-serif;
+        }
+        button[type="submit"]:hover {
+            background-color: #5edc6a;
+        }
+    </style>
 </body>
 </html>

@@ -315,7 +315,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['product'], $_POST['qu
         </div>
         <div class="footer_child4" style="position: relative; top: 42.5%; left: 30%; height: 350px;">    
             <li style="font-size: 40px;">Legal</li>
-            <a href="./careers.php"><li style="font-size: 35px; opacity: 75%;">Careers</li></a>
             <a href="./privacy-policy.php"><li style="font-size: 35px; opacity: 75%;">Privacy Policy</li></a>
             <a href="./terms-condition.php"><li style="font-size: 35px; opacity: 75%;">Terms & Conditions</li></a>
             <a href="./return-policy.php"><li style="font-size: 35px; opacity: 75%;">Return Policy</li></a>
