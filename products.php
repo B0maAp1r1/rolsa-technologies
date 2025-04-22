@@ -8,9 +8,35 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./stylesheet.css">
     <link rel="stylesheet" href="./responsive_styles.css">
-    <title>Document</title>
+    <title>Products and Services</title>
 </head>
 <body style="background: #d9d9d9;">
+<?php 
+session_start();
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['product'], $_POST['quantity'])) {
+    $product = $_POST['product'];
+    $quantity = intval($_POST['quantity']);
+    if ($quantity < 1) {
+        $quantity = 1;
+    }
+
+    if (!isset($_SESSION['cart'])) {
+        $_SESSION['cart'] = [];
+    }
+
+    // If product already in cart, increase quantity
+    if (isset($_SESSION['cart'][$product])) {
+        $_SESSION['cart'][$product] += $quantity;
+    } else {
+        $_SESSION['cart'][$product] = $quantity;
+    }
+
+    // Redirect to avoid form resubmission
+    header('Location: products.php');
+    exit();
+}
+?>
     <div style="height: 30vh; width: 80vw; background-color: black; justify-self: center;">
         <!-- navbar section -->
         <div id="nav-bar" style="background-color: black; height: 75px; position: absolute; display: flex; top: 25px; border-radius: 50px; left: 25%; width: 50vw;">
@@ -96,13 +122,13 @@
         <br><br>
         <div class="prodSect2_child3" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
             <div style="display: flex; gap: 20px; position: relative; top: 20%; justify-self: center;">
-                <div style="display: flex; width: 71px; background-color: white; position: relative; justify-content: center; height: 25px; color: black; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; border-radius: 50px;">
+                <div class="quantity-selector" style="display: flex; width: 71px; background-color: white; position: relative; justify-content: center; height: 25px; color: black; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; border-radius: 50px;">
                     <button class="quantity-decrease" style="border: 0; height: 25px; position: relative; border-right: 1px solid black;">-</button>
                     <span class="quantity-display" style="border: 0; height: 25px; position: relative;">1</span>
                     <button class="quantity-increase" style="border: 0; height: 25px; position: relative; border-left: 1px solid black;">+</button>
                 </div>
                 <div>
-                    <button class="add-to-basket" style="background-color: #75fb87; width: 150px; color: black; border-radius: 50px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Add to basket</button>
+                    <button class="add-to-basket" data-product="Energy Monitor" style="background-color: #75fb87; width: 150px; color: black; border-radius: 50px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Add to basket</button>
                 </div>
             </div>
             <div style="position: relative; left: 50px; top: 125px; font-size: 11px;">
@@ -194,13 +220,13 @@
             <p style="width: 100px; position: relative; left: 5%; top: 20%;">From £439</p>
             <p style="width: 150px; position: relative; left: 5%; top: 15%;">inc. VAT if applicable</p>
             <div style="display: flex; gap: 20px; position: relative; top: 20%; justify-self: center;">
-                <div style="display: flex; width: 71px; background-color: white; position: relative; justify-content: center; height: 25px; color: black; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; border-radius: 50px;">
-                    <button style="border: 0; height: 25px; position: relative; border-right: 1px solid black;">-</button>
-                    <button style="border: 0; height: 25px; position: relative;">1</button>
-                    <button style="border: 0; height: 25px; position: relative; border-left: 1px solid black;">+</button>
+                <div class="quantity-selector" style="display: flex; width: 71px; background-color: white; position: relative; justify-content: center; height: 25px; color: black; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; border-radius: 50px;">
+                    <button class="quantity-decrease" style="border: 0; height: 25px; position: relative; border-right: 1px solid black;">-</button>
+                    <span class="quantity-display" style="border: 0; height: 25px; position: relative;">1</span>
+                    <button class="quantity-increase" style="border: 0; height: 25px; position: relative; border-left: 1px solid black;">+</button>
                 </div>
                 <div>
-                    <button style="background-color: #75fb87; width: 150px; color: black; border-radius: 50px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Add to basket</button>
+                    <button class="add-to-basket" data-product="Battery Storage System" style="background-color: #75fb87; width: 150px; color: black; border-radius: 50px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Add to basket</button>
                 </div>
             </div>
             <div style="position: relative; left: 50px; top: 125px; font-size: 11px;">
@@ -250,13 +276,13 @@
         <br>
         <div class="prodSect2_child3" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
             <div style="display: flex; gap: 20px; position: relative; top: 20%; justify-self: center;">
-                <div style="display: flex; width: 71px; background-color: white; position: relative; justify-content: center; height: 25px; color: black; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; border-radius: 50px;">
+                <div class="quantity-selector" style="display: flex; width: 71px; background-color: white; position: relative; justify-content: center; height: 25px; color: black; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; border-radius: 50px;">
                     <button class="quantity-decrease" style="border: 0; height: 25px; position: relative; border-right: 1px solid black;">-</button>
                     <span class="quantity-display" style="border: 0; height: 25px; position: relative;">1</span>
                     <button class="quantity-increase" style="border: 0; height: 25px; position: relative; border-left: 1px solid black;">+</button>
                 </div>
                 <div>
-                    <button class="add-to-basket" style="background-color: #75fb87; width: 150px; color: black; border-radius: 50px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Add to basket</button>
+                    <button class="add-to-basket" data-product="Solar Panel" style="background-color: #75fb87; width: 150px; color: black; border-radius: 50px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Add to basket</button>
                 </div>
             </div>
             <div style="position: relative; left: 50px; top: 125px; font-size: 11px;">
@@ -293,28 +319,52 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            // Quantity buttons
-            const quantityDisplay = document.querySelector('.quantity-display');
-            let quantity = 1;
+            // Handle multiple quantity selectors
+            document.querySelectorAll('.quantity-selector').forEach(selector => {
+                let quantityDisplay = selector.querySelector('.quantity-display');
+                let quantity = 1;
 
-            document.querySelector('.quantity-increase').addEventListener('click', function() {
-                quantity++;
-                quantityDisplay.textContent = quantity;
-            });
-
-            document.querySelector('.quantity-decrease').addEventListener('click', function() {
-                if (quantity > 1) {
-                    quantity--;
+                selector.querySelector('.quantity-increase').addEventListener('click', function() {
+                    quantity++;
                     quantityDisplay.textContent = quantity;
-                }
+                });
+
+                selector.querySelector('.quantity-decrease').addEventListener('click', function() {
+                    if (quantity > 1) {
+                        quantity--;
+                        quantityDisplay.textContent = quantity;
+                    }
+                });
             });
 
-            // Add to Basket button
-            document.querySelector('.add-to-basket').addEventListener('click', function() {
-                const selectedQuantity = quantity;
-                // Capture preferences if needed
-                // Logic to add to basket can be implemented here
-                alert(`Added ${selectedQuantity} item(s) to the basket.`);
+            // Replace Add to Basket buttons with form submission
+            document.querySelectorAll('.add-to-basket').forEach(button => {
+                button.addEventListener('click', function() {
+                    const productName = this.getAttribute('data-product');
+                    const quantitySelector = this.closest('div').previousElementSibling;
+                    const quantityDisplay = quantitySelector.querySelector('.quantity-display');
+                    const selectedQuantity = quantityDisplay ? parseInt(quantityDisplay.textContent) : 1;
+
+                    // Create a form and submit to products.php to add to cart
+                    const form = document.createElement('form');
+                    form.method = 'POST';
+                    form.action = 'products.php';
+
+                    const productInput = document.createElement('input');
+                    productInput.type = 'hidden';
+                    productInput.name = 'product';
+                    productInput.value = productName;
+                    form.appendChild(productInput);
+
+                    const quantityInput = document.createElement('input');
+                    quantityInput.type = 'hidden';
+                    quantityInput.name = 'quantity';
+                    quantityInput.value = selectedQuantity;
+                    form.appendChild(quantityInput);
+
+                    document.body.appendChild(form);
+                    form.submit();
+                });
             });
 
             // Preference buttons
@@ -325,6 +375,9 @@
                     this.style.backgroundColor = '#75fb87'; // Change color on click
                 });
             });
+
+            // Apply consistent font-family to all text elements
+            document.body.style.fontFamily = "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif";
         });
     </script>
 </body>
