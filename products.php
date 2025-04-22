@@ -37,6 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['product'], $_POST['qu
     exit();
 }
 ?>
+
     <div style="height: 30vh; width: 80vw; background-color: black; justify-self: center;">
         <!-- navbar section -->
         <div id="nav-bar" style="background-color: black; height: 75px; position: absolute; display: flex; top: 25px; border-radius: 50px; left: 25%; width: 50vw;">
@@ -128,7 +129,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['product'], $_POST['qu
                     <button class="quantity-increase" style="border: 0; height: 25px; position: relative; border-left: 1px solid black;">+</button>
                 </div>
                 <div>
-                    <button class="add-to-basket" data-product="Energy Monitor" style="background-color: #75fb87; width: 150px; color: black; border-radius: 50px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Add to basket</button>
+                    <button class="add-to-basket" data-product="EV Chargers" style="background-color: #75fb87; width: 150px; color: black; border-radius: 50px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Add to basket</button>
                 </div>
             </div>
             <div style="position: relative; left: 50px; top: 125px; font-size: 11px;">
@@ -166,8 +167,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['product'], $_POST['qu
             <p style="width: 100px; position: relative; left: 5%; top: 20%;">From £65</p>
             <p style="width: 150px; position: relative; left: 5%; top: 15%;">inc. VAT if applicable</p>
             <div style="display: flex; gap: 20px; position: relative; top: 20%; justify-self: center;">
+                <div class="quantity-selector" style="display: flex; width: 71px; background-color: white; position: relative; justify-content: center; height: 25px; color: black; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; border-radius: 50px;">
+                    <button class="quantity-decrease" style="border: 0; height: 25px; position: relative; border-right: 1px solid black;">-</button>
+                    <span class="quantity-display" style="border: 0; height: 25px; position: relative;">1</span>
+                    <button class="quantity-increase" style="border: 0; height: 25px; position: relative; border-left: 1px solid black;">+</button>
+                </div>
                 <div>
-                    <button style="background-color: #75fb87; width: 150px; color: black; border-radius: 50px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Add to basket</button>
+                    <button class="add-to-basket" data-product="Energy Monitor" style="background-color: #75fb87; width: 150px; color: black; border-radius: 50px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Add to basket</button>
                 </div>
             </div>
             <div style="position: relative; left: 50px; top: 125px; font-size: 11px;">
