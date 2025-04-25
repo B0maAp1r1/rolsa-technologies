@@ -78,7 +78,7 @@
             <a href="./products.php"><button style="background-color: black; position: relative; left: 5%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; height: 45px; width: 150px; border-radius: 50px; color: #75fb87; bottom: 15px;">Learn more</button></a>
         </div>
         <div class="sect2_child3" style="position: relative; top: 10%;">
-            <h1 style="position: relative; padding-top: 10px; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; left: 5%;">BATTERY STORAGE SYSTEM</h1>
+            <h1 style="position: relative; padding-top: 10px; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; left: 5%;">BATTERY STORAGE <br> SYSTEM</h1>
             <br>
             <img width="425px" height="400px" style="position: relative; left: 7.5%; border: 2px solid white; border-radius: 15px;" src="./Images/zendure-power-station-DjknAhHi0OY-unsplash.jpg" alt="">
             <br><br>
