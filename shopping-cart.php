@@ -31,21 +31,48 @@
         $_SESSION['cart'] = [];
     }
 
-    if (empty($_SESSION['cart'])) {
-        echo "<h1 style=\"font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;\">Your shopping cart is empty.</h1>";
-    } else {
-        echo "<h1 style=\"font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;\">Your Shopping Cart</h1>";
-        echo "<ul style=\"font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;\">";
-        foreach ($_SESSION['cart'] as $product => $quantity) {
-            echo "<li style=\"font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;\">";
-            echo "Product: " . htmlspecialchars($product) . " - Quantity: " . intval($quantity);
-            echo "<form method='POST' action='shopping-cart.php' style='display:inline; margin-left: 10px;'>";
-            echo "<input type='hidden' name='remove_product' value='" . htmlspecialchars($product) . "'>";
-            echo "<button type='submit' style='color: white; background-color: red; border: none; padding: 5px 10px; border-radius: 5px; cursor: pointer;'>Remove from basket</button>";
-            echo "</form>";
-            echo "</li>";
+    // Handle quantity reduction
+    if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['reduce_product'])) {
+        $reduceProduct = $_POST['reduce_product'];
+        if (isset($_SESSION['cart'][$reduceProduct])) {
+            $_SESSION['cart'][$reduceProduct]--;
+            if ($_SESSION['cart'][$reduceProduct] <= 0) {
+                unset($_SESSION['cart'][$reduceProduct]);
+            }
         }
-        echo "</ul>";
+        // Redirect to avoid form resubmission
+        header('Location: shopping-cart.php');
+        exit();
+    }
+
+    if (empty($_SESSION['cart'])) {
+        echo "<h1 style=\"font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: black; background-color: white; padding: 20px;\">Your shopping cart is empty.</h1>";
+    } else {
+        echo "<h1 style=\"font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: black; background-color: white; padding: 20px;\">Your Shopping Cart</h1>";
+        echo "<div style='background-color: white; color: black; padding: 20px;'>";
+        foreach ($_SESSION['cart'] as $product => $quantity) {
+            echo "<div style='border: 1px solid #ddd; padding: 15px; margin-bottom: 15px; border-radius: 8px; display: flex; justify-content: space-between; align-items: center; font-family:\"Gill Sans\", \"Gill Sans MT\", Calibri, \"Trebuchet MS\", sans-serif;'>";
+            echo "<div>Product: " . htmlspecialchars($product) . "</div>";
+            echo "<div>Quantity: " . intval($quantity) . "</div>";
+            echo "<div style='display: flex; gap: 10px;'>";
+            // Reduce quantity form
+            echo "<form method='POST' action='shopping-cart.php' style='display:inline;'>";
+            echo "<input type='hidden' name='reduce_product' value='" . htmlspecialchars($product) . "'>";
+            echo "<button type='submit' style='color: white; background-color: #007bff; border: none; padding: 5px 10px; border-radius: 5px; cursor: pointer;'>-</button>";
+            echo "</form>";
+            // Remove product form
+            echo "<form method='POST' action='shopping-cart.php' style='display:inline;'>";
+            echo "<input type='hidden' name='remove_product' value='" . htmlspecialchars($product) . "'>";
+            echo "<button type='submit' style='color: white; background-color: red; border: none; padding: 5px 10px; border-radius: 5px; cursor: pointer;'>Remove</button>";
+            echo "</form>";
+            echo "</div>";
+            echo "</div>";
+        }
+        // Checkout button
+        echo "<div style='text-align: right; margin-top: 20px;'>";
+        echo "<a href='checkout.php' style='background-color: #28a745; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-size: 18px;'>Proceed to Checkout</a>";
+        echo "</div>";
+        echo "</div>";
     }
     ?>
 
