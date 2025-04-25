@@ -34,6 +34,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['card_payment'])) {
     } else {
         // Simulate payment processing success
         $paymentSuccess = true;
+        // Save paid products to session for orders page
+        $_SESSION['paid_products'] = $_SESSION['cart'] ?? [];
         // Clear the cart after successful payment
         unset($_SESSION['cart']);
     }
