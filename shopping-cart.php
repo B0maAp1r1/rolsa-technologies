@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="stylesheet.css">
     <title>Shopping Cart</title>
 </head>
-<body>
+<body style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
     <div style="height: 250px;">
 
     </div>
@@ -45,6 +45,17 @@
         exit();
     }
 
+    // Handle quantity increase
+    if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['increase_product'])) {
+        $increaseProduct = $_POST['increase_product'];
+        if (isset($_SESSION['cart'][$increaseProduct])) {
+            $_SESSION['cart'][$increaseProduct]++;
+        }
+        // Redirect to avoid form resubmission
+        header('Location: shopping-cart.php');
+        exit();
+    }
+
     if (empty($_SESSION['cart'])) {
         echo "<h1 style=\"font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: black; background-color: white; padding: 20px;\">Your shopping cart is empty.</h1>";
     } else {
@@ -60,6 +71,11 @@
             echo "<input type='hidden' name='reduce_product' value='" . htmlspecialchars($product) . "'>";
             echo "<button type='submit' style='color: white; background-color: #007bff; border: none; padding: 5px 10px; border-radius: 5px; cursor: pointer;'>-</button>";
             echo "</form>";
+            // Increase quantity form
+            echo "<form method='POST' action='shopping-cart.php' style='display:inline;'>";
+            echo "<input type='hidden' name='increase_product' value='" . htmlspecialchars($product) . "'>";
+            echo "<button type='submit' style='color: white; background-color: #007bff; border: none; padding: 5px 10px; border-radius: 5px; cursor: pointer;'>+</button>";
+            echo "</form>";
             // Remove product form
             echo "<form method='POST' action='shopping-cart.php' style='display:inline;'>";
             echo "<input type='hidden' name='remove_product' value='" . htmlspecialchars($product) . "'>";
@@ -70,7 +86,7 @@
         }
         // Checkout button
         echo "<div style='text-align: right; margin-top: 20px;'>";
-        echo "<a href='checkout.php' style='background-color: #28a745; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-size: 18px;'>Proceed to Checkout</a>";
+        echo "<a href='checkout.php' style='background-color: #91f792; color: black; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-size: 18px;'>Proceed to Checkout</a>";
         echo "</div>";
         echo "</div>";
     }
