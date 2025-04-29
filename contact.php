@@ -96,6 +96,7 @@
             <li style="font-size: 40px;">Account</li>
             <a href="./login.php"><li style="font-size: 35px; opacity: 75%;">Log In</li></a>
             <a href="./registration.php"><li style="font-size: 35px; opacity: 75%;">Register</li></a>
+            <a href="./orders.php"><li style="font-size: 35px; opacity: 75%;">Orders</li></a>
             <a href="./feedback.php"><li style="font-size: 35px; opacity: 75%;">Feedback</li></a>
         </div>
         <div class="footer_child4" style="position: relative; top: 42.5%; left: 30%; height: 350px;">    
